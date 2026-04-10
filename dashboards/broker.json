@@ -2154,7 +2154,7 @@
         ]
     },
     "timezone": "browser",
-    "title": "Broker Metrics",
-    "uid": "yCzhgegZz",
+    "title": "CLOUDMQ Broker Metrics",
+    "uid": "bes-cloudmq-broker",
     "version": 1
 }
