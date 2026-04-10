@@ -1,0 +1,1421 @@
+# TYPE brk_ledgeroffloader_write_storage_error counter
+# TYPE cloudmq_broker_lookup_answers counter
+cloudmq_broker_lookup_answers_total{cluster="cluster-a-cloudmqcluster"} 6.0
+cloudmq_broker_lookup_answers_created{cluster="cluster-a-cloudmqcluster"} 1.775735054435E9
+# TYPE bes_bytesreceived_total gauge
+bes_bytesreceived_total{cluster="cluster-a-cloudmqcluster",listener="null"} 0.0
+# TYPE bes_bytessent_total gauge
+bes_bytessent_total{cluster="cluster-a-cloudmqcluster",listener="null"} 0.0
+# TYPE bes_processingtime_total gauge
+bes_processingtime_total{cluster="cluster-a-cloudmqcluster",listener="null"} 0.0
+# TYPE bes_maxtime_total gauge
+bes_maxtime_total{cluster="cluster-a-cloudmqcluster",listener="null"} 0.0
+# TYPE bes_errorcount counter
+bes_errorcount_total{cluster="cluster-a-cloudmqcluster",listener="null"} 0.0
+# TYPE bes_requestcount counter
+bes_requestcount_total{cluster="cluster-a-cloudmqcluster",listener="null"} 0.0
+# TYPE cloudmq_version_info gauge
+cloudmq_version_info{cluster="cluster-a-cloudmqcluster",version="2.4.0",commit=""} 1.0
+# TYPE cloudmq_broker_throttled_connections gauge
+cloudmq_broker_throttled_connections{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_web_executor_current_threads gauge
+cloudmq_web_executor_current_threads{cluster="cluster-a-cloudmqcluster"} 8.0
+# TYPE cloudmq_resource_group_messages_used counter
+# TYPE jvm_memory_objects_pending_finalization gauge
+jvm_memory_objects_pending_finalization{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE jvm_memory_bytes_used gauge
+jvm_memory_bytes_used{cluster="cluster-a-cloudmqcluster",area="heap"} 1.44703488E8
+jvm_memory_bytes_used{cluster="cluster-a-cloudmqcluster",area="nonheap"} 1.06328352E8
+# TYPE jvm_memory_bytes_committed gauge
+jvm_memory_bytes_committed{cluster="cluster-a-cloudmqcluster",area="heap"} 5.38968064E8
+jvm_memory_bytes_committed{cluster="cluster-a-cloudmqcluster",area="nonheap"} 1.10886912E8
+# TYPE jvm_memory_bytes_max gauge
+jvm_memory_bytes_max{cluster="cluster-a-cloudmqcluster",area="heap"} 1.073741824E9
+jvm_memory_bytes_max{cluster="cluster-a-cloudmqcluster",area="nonheap"} -1.0
+# TYPE jvm_memory_bytes_init gauge
+jvm_memory_bytes_init{cluster="cluster-a-cloudmqcluster",area="heap"} 5.38968064E8
+jvm_memory_bytes_init{cluster="cluster-a-cloudmqcluster",area="nonheap"} 7667712.0
+# TYPE jvm_memory_pool_bytes_used gauge
+jvm_memory_pool_bytes_used{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'non-nmethods'"} 2048768.0
+jvm_memory_pool_bytes_used{cluster="cluster-a-cloudmqcluster",pool="Metaspace"} 7.8628904E7
+jvm_memory_pool_bytes_used{cluster="cluster-a-cloudmqcluster",pool="ZHeap"} 1.44703488E8
+jvm_memory_pool_bytes_used{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'profiled nmethods'"} 1.2837888E7
+jvm_memory_pool_bytes_used{cluster="cluster-a-cloudmqcluster",pool="Compressed Class Space"} 9136888.0
+jvm_memory_pool_bytes_used{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'non-profiled nmethods'"} 3675904.0
+# TYPE jvm_memory_pool_bytes_committed gauge
+jvm_memory_pool_bytes_committed{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'non-nmethods'"} 2555904.0
+jvm_memory_pool_bytes_committed{cluster="cluster-a-cloudmqcluster",pool="Metaspace"} 7.9757312E7
+jvm_memory_pool_bytes_committed{cluster="cluster-a-cloudmqcluster",pool="ZHeap"} 5.38968064E8
+jvm_memory_pool_bytes_committed{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'profiled nmethods'"} 1.4876672E7
+jvm_memory_pool_bytes_committed{cluster="cluster-a-cloudmqcluster",pool="Compressed Class Space"} 9633792.0
+jvm_memory_pool_bytes_committed{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'non-profiled nmethods'"} 4063232.0
+# TYPE jvm_memory_pool_bytes_max gauge
+jvm_memory_pool_bytes_max{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'non-nmethods'"} 5828608.0
+jvm_memory_pool_bytes_max{cluster="cluster-a-cloudmqcluster",pool="Metaspace"} -1.0
+jvm_memory_pool_bytes_max{cluster="cluster-a-cloudmqcluster",pool="ZHeap"} 1.073741824E9
+jvm_memory_pool_bytes_max{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'profiled nmethods'"} 1.22912768E8
+jvm_memory_pool_bytes_max{cluster="cluster-a-cloudmqcluster",pool="Compressed Class Space"} 1.073741824E9
+jvm_memory_pool_bytes_max{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'non-profiled nmethods'"} 1.22916864E8
+# TYPE jvm_memory_pool_bytes_init gauge
+jvm_memory_pool_bytes_init{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'non-nmethods'"} 2555904.0
+jvm_memory_pool_bytes_init{cluster="cluster-a-cloudmqcluster",pool="Metaspace"} 0.0
+jvm_memory_pool_bytes_init{cluster="cluster-a-cloudmqcluster",pool="ZHeap"} 5.38968064E8
+jvm_memory_pool_bytes_init{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'profiled nmethods'"} 2555904.0
+jvm_memory_pool_bytes_init{cluster="cluster-a-cloudmqcluster",pool="Compressed Class Space"} 0.0
+jvm_memory_pool_bytes_init{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'non-profiled nmethods'"} 2555904.0
+# TYPE jvm_memory_pool_collection_used_bytes gauge
+jvm_memory_pool_collection_used_bytes{cluster="cluster-a-cloudmqcluster",pool="ZHeap"} 1.32120576E8
+# TYPE jvm_memory_pool_collection_committed_bytes gauge
+jvm_memory_pool_collection_committed_bytes{cluster="cluster-a-cloudmqcluster",pool="ZHeap"} 5.38968064E8
+# TYPE jvm_memory_pool_collection_max_bytes gauge
+jvm_memory_pool_collection_max_bytes{cluster="cluster-a-cloudmqcluster",pool="ZHeap"} 1.073741824E9
+# TYPE jvm_memory_pool_collection_init_bytes gauge
+jvm_memory_pool_collection_init_bytes{cluster="cluster-a-cloudmqcluster",pool="ZHeap"} 5.38968064E8
+# TYPE jvm_gc_collection_seconds summary
+jvm_gc_collection_seconds_count{cluster="cluster-a-cloudmqcluster",gc="ZGC Cycles"} 6.0
+jvm_gc_collection_seconds_sum{cluster="cluster-a-cloudmqcluster",gc="ZGC Cycles"} 1.342
+jvm_gc_collection_seconds_count{cluster="cluster-a-cloudmqcluster",gc="ZGC Pauses"} 18.0
+jvm_gc_collection_seconds_sum{cluster="cluster-a-cloudmqcluster",gc="ZGC Pauses"} 0.0
+# TYPE caffeine_cache_hit counter
+caffeine_cache_hit_total{cluster="cluster-a-cloudmqcluster",cache="owned-bundles"} 19.0
+caffeine_cache_hit_total{cluster="cluster-a-cloudmqcluster",cache="bundles"} 85.0
+# TYPE caffeine_cache_miss counter
+caffeine_cache_miss_total{cluster="cluster-a-cloudmqcluster",cache="owned-bundles"} 49.0
+caffeine_cache_miss_total{cluster="cluster-a-cloudmqcluster",cache="bundles"} 8.0
+# TYPE caffeine_cache_requests counter
+caffeine_cache_requests_total{cluster="cluster-a-cloudmqcluster",cache="owned-bundles"} 68.0
+caffeine_cache_requests_total{cluster="cluster-a-cloudmqcluster",cache="bundles"} 93.0
+# TYPE caffeine_cache_eviction counter
+caffeine_cache_eviction_total{cluster="cluster-a-cloudmqcluster",cache="owned-bundles"} 0.0
+caffeine_cache_eviction_total{cluster="cluster-a-cloudmqcluster",cache="bundles"} 0.0
+# TYPE caffeine_cache_eviction_weight gauge
+caffeine_cache_eviction_weight{cluster="cluster-a-cloudmqcluster",cache="owned-bundles"} 0.0
+caffeine_cache_eviction_weight{cluster="cluster-a-cloudmqcluster",cache="bundles"} 0.0
+# TYPE caffeine_cache_load_failure counter
+caffeine_cache_load_failure_total{cluster="cluster-a-cloudmqcluster",cache="owned-bundles"} 0.0
+caffeine_cache_load_failure_total{cluster="cluster-a-cloudmqcluster",cache="bundles"} 0.0
+# TYPE caffeine_cache_loads counter
+caffeine_cache_loads_total{cluster="cluster-a-cloudmqcluster",cache="owned-bundles"} 5.0
+caffeine_cache_loads_total{cluster="cluster-a-cloudmqcluster",cache="bundles"} 8.0
+# TYPE caffeine_cache_estimated_size gauge
+caffeine_cache_estimated_size{cluster="cluster-a-cloudmqcluster",cache="owned-bundles"} 5.0
+caffeine_cache_estimated_size{cluster="cluster-a-cloudmqcluster",cache="bundles"} 8.0
+# TYPE caffeine_cache_load_duration_seconds summary
+caffeine_cache_load_duration_seconds_count{cluster="cluster-a-cloudmqcluster",cache="owned-bundles"} 5.0
+caffeine_cache_load_duration_seconds_sum{cluster="cluster-a-cloudmqcluster",cache="owned-bundles"} 130.26432182
+caffeine_cache_load_duration_seconds_count{cluster="cluster-a-cloudmqcluster",cache="bundles"} 8.0
+caffeine_cache_load_duration_seconds_sum{cluster="cluster-a-cloudmqcluster",cache="bundles"} 0.118091709
+# TYPE cloudmq_resource_group_updates counter
+# TYPE cloudmq_batch_metadata_store_executor_queue_size gauge
+cloudmq_batch_metadata_store_executor_queue_size{cluster="cluster-a-cloudmqcluster",name="metadata-store"} 1.0
+# TYPE jvm_memory_pool_allocated_bytes counter
+jvm_memory_pool_allocated_bytes_total{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'profiled nmethods'"} 2.6817792E7
+jvm_memory_pool_allocated_bytes_created{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'profiled nmethods'"} 1.775735101547E9
+jvm_memory_pool_allocated_bytes_total{cluster="cluster-a-cloudmqcluster",pool="ZHeap"} 5.70425344E8
+jvm_memory_pool_allocated_bytes_created{cluster="cluster-a-cloudmqcluster",pool="ZHeap"} 1.775735101547E9
+jvm_memory_pool_allocated_bytes_total{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'non-profiled nmethods'"} 7125888.0
+jvm_memory_pool_allocated_bytes_created{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'non-profiled nmethods'"} 1.775735101547E9
+jvm_memory_pool_allocated_bytes_total{cluster="cluster-a-cloudmqcluster",pool="Compressed Class Space"} 1.6830888E7
+jvm_memory_pool_allocated_bytes_created{cluster="cluster-a-cloudmqcluster",pool="Compressed Class Space"} 1.775735101547E9
+jvm_memory_pool_allocated_bytes_total{cluster="cluster-a-cloudmqcluster",pool="Metaspace"} 1.45160832E8
+jvm_memory_pool_allocated_bytes_created{cluster="cluster-a-cloudmqcluster",pool="Metaspace"} 1.775735101547E9
+jvm_memory_pool_allocated_bytes_total{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'non-nmethods'"} 3789312.0
+jvm_memory_pool_allocated_bytes_created{cluster="cluster-a-cloudmqcluster",pool="CodeHeap 'non-nmethods'"} 1.775735101547E9
+# TYPE cloudmq_schema_compatible counter
+# TYPE brk_ledgeroffloader_delete_offload_ops counter
+# TYPE jvm_info gauge
+jvm_info{cluster="cluster-a-cloudmqcluster",runtime="OpenJDK Runtime Environment",vendor="Oracle Corporation",version="21.0.2+13-58"} 1.0
+# TYPE cloudmq_schema_put_ops_failed counter
+# TYPE cloudmq_resource_group_aggregate_usage_secs summary
+cloudmq_resource_group_aggregate_usage_secs{cluster="cluster-a-cloudmqcluster",quantile="0.5"} NaN
+cloudmq_resource_group_aggregate_usage_secs{cluster="cluster-a-cloudmqcluster",quantile="0.9"} NaN
+cloudmq_resource_group_aggregate_usage_secs_count{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_resource_group_aggregate_usage_secs_sum{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_resource_group_aggregate_usage_secs_created{cluster="cluster-a-cloudmqcluster"} 1.77573505454E9
+# TYPE cloudmq_broker_pending_bytes_to_dispatch gauge
+cloudmq_broker_pending_bytes_to_dispatch{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_schema_put_ops_latency summary
+# TYPE cloudmq_broker_lookup_failures counter
+cloudmq_broker_lookup_failures_total{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_broker_lookup_failures_created{cluster="cluster-a-cloudmqcluster"} 1.775735054435E9
+# TYPE jvm_memory_direct_bytes_max gauge
+jvm_memory_direct_bytes_max{cluster="cluster-a-cloudmqcluster"} 1.073741824E9
+# TYPE cloudmq_ml_cache_pendingreads_matched_overlapping_miss_both counter
+cloudmq_ml_cache_pendingreads_matched_overlapping_miss_both_total{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_ml_cache_pendingreads_matched_overlapping_miss_both_created{cluster="cluster-a-cloudmqcluster"} 1.775735188895E9
+# TYPE cloudmq_metadata_store_ops_latency_ms histogram
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="1.0"} 7.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="3.0"} 37.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="5.0"} 76.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="10.0"} 107.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="20.0"} 124.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="50.0"} 125.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="100.0"} 138.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="200.0"} 140.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="500.0"} 140.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="1000.0"} 140.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="2000.0"} 140.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="5000.0"} 140.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success",le="+Inf"} 144.0
+cloudmq_metadata_store_ops_latency_ms_count{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success"} 144.0
+cloudmq_metadata_store_ops_latency_ms_sum{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success"} 430315.0
+cloudmq_metadata_store_ops_latency_ms_created{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="success"} 1.775735052209E9
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="1.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="3.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="5.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="10.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="20.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="50.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="100.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="200.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="500.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="1000.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="2000.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="5000.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail",le="+Inf"} 0.0
+cloudmq_metadata_store_ops_latency_ms_count{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail"} 0.0
+cloudmq_metadata_store_ops_latency_ms_sum{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail"} 0.0
+cloudmq_metadata_store_ops_latency_ms_created{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="get",status="fail"} 1.775735052209E9
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="1.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="3.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="5.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="10.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="20.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="50.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="100.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="200.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="500.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="1000.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="2000.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="5000.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail",le="+Inf"} 0.0
+cloudmq_metadata_store_ops_latency_ms_count{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail"} 0.0
+cloudmq_metadata_store_ops_latency_ms_sum{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail"} 0.0
+cloudmq_metadata_store_ops_latency_ms_created{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="fail"} 1.775735052209E9
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="1.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="3.0"} 2.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="5.0"} 10.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="10.0"} 19.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="20.0"} 21.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="50.0"} 21.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="100.0"} 21.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="200.0"} 21.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="500.0"} 21.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="1000.0"} 21.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="2000.0"} 21.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="5000.0"} 21.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success",le="+Inf"} 22.0
+cloudmq_metadata_store_ops_latency_ms_count{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success"} 22.0
+cloudmq_metadata_store_ops_latency_ms_sum{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success"} 130361.0
+cloudmq_metadata_store_ops_latency_ms_created{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="success"} 1.775735052209E9
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="1.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="3.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="5.0"} 4.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="10.0"} 7.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="20.0"} 8.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="50.0"} 8.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="100.0"} 8.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="200.0"} 8.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="500.0"} 8.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="1000.0"} 8.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="2000.0"} 8.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="5000.0"} 8.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success",le="+Inf"} 8.0
+cloudmq_metadata_store_ops_latency_ms_count{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success"} 8.0
+cloudmq_metadata_store_ops_latency_ms_sum{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success"} 58.0
+cloudmq_metadata_store_ops_latency_ms_created{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="del",status="success"} 1.775735052209E9
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="1.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="3.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="5.0"} 0.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="10.0"} 13.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="20.0"} 106.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="50.0"} 108.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="100.0"} 108.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="200.0"} 108.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="500.0"} 108.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="1000.0"} 108.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="2000.0"} 108.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="5000.0"} 108.0
+cloudmq_metadata_store_ops_latency_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail",le="+Inf"} 108.0
+cloudmq_metadata_store_ops_latency_ms_count{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail"} 108.0
+cloudmq_metadata_store_ops_latency_ms_sum{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail"} 1655.0
+cloudmq_metadata_store_ops_latency_ms_created{cluster="cluster-a-cloudmqcluster",name="metadata-store",type="put",status="fail"} 1.775735052209E9
+# TYPE topic_load_failed counter
+topic_load_failed_total{cluster="cluster-a-cloudmqcluster"} 0.0
+topic_load_failed_created{cluster="cluster-a-cloudmqcluster"} 1.775735054286E9
+# TYPE cloudmq_ml_cache_pendingreads_missed counter
+cloudmq_ml_cache_pendingreads_missed_total{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_ml_cache_pendingreads_missed_created{cluster="cluster-a-cloudmqcluster"} 1.775735188895E9
+# TYPE cloudmq_ml_cache_pendingreads_matched_overlapping_miss_left counter
+cloudmq_ml_cache_pendingreads_matched_overlapping_miss_left_total{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_ml_cache_pendingreads_matched_overlapping_miss_left_created{cluster="cluster-a-cloudmqcluster"} 1.775735188895E9
+# TYPE cloudmq_authentication_success counter
+cloudmq_authentication_success_total{cluster="cluster-a-cloudmqcluster",provider_name="AuthenticationProviderToken",auth_method="token"} 163.0
+cloudmq_authentication_success_created{cluster="cluster-a-cloudmqcluster",provider_name="AuthenticationProviderToken",auth_method="token"} 1.775735057602E9
+# TYPE bes_threadpool_maxthreads gauge
+bes_threadpool_maxthreads{cluster="cluster-a-cloudmqcluster",name="cloudmq-web"} 8.0
+# TYPE bes_threadpool_minsparethreads gauge
+bes_threadpool_minsparethreads{cluster="cluster-a-cloudmqcluster",name="cloudmq-web"} 8.0
+# TYPE cloudmq_broker_lookup summary
+cloudmq_broker_lookup{cluster="cluster-a-cloudmqcluster",quantile="0.5"} NaN
+cloudmq_broker_lookup{cluster="cluster-a-cloudmqcluster",quantile="0.99"} NaN
+cloudmq_broker_lookup{cluster="cluster-a-cloudmqcluster",quantile="0.999"} NaN
+cloudmq_broker_lookup{cluster="cluster-a-cloudmqcluster",quantile="1.0"} NaN
+cloudmq_broker_lookup_count{cluster="cluster-a-cloudmqcluster"} 16.0
+cloudmq_broker_lookup_sum{cluster="cluster-a-cloudmqcluster"} 1254.0
+# TYPE cloudmq_resource_group_calculated_messages_quota counter
+# TYPE bes_session_activesessions_total gauge
+bes_session_activesessions_total{cluster="cluster-a-cloudmqcluster",context="/api",host="localhost"} 0.0
+bes_session_activesessions_total{cluster="cluster-a-cloudmqcluster",context="/",host="localhost"} 0.0
+# TYPE bes_session_rejectedsessions_total gauge
+bes_session_rejectedsessions_total{cluster="cluster-a-cloudmqcluster",context="/api",host="localhost"} 0.0
+bes_session_rejectedsessions_total{cluster="cluster-a-cloudmqcluster",context="/",host="localhost"} 0.0
+# TYPE bes_session_sessioncounter_total gauge
+bes_session_sessioncounter_total{cluster="cluster-a-cloudmqcluster",context="/api",host="localhost"} 0.0
+bes_session_sessioncounter_total{cluster="cluster-a-cloudmqcluster",context="/",host="localhost"} 0.0
+# TYPE bes_session_expiredsessions_total gauge
+bes_session_expiredsessions_total{cluster="cluster-a-cloudmqcluster",context="/api",host="localhost"} 0.0
+bes_session_expiredsessions_total{cluster="cluster-a-cloudmqcluster",context="/",host="localhost"} 0.0
+# TYPE bes_session_processingtime_total gauge
+bes_session_processingtime_total{cluster="cluster-a-cloudmqcluster",context="/api",host="localhost"} 0.0
+bes_session_processingtime_total{cluster="cluster-a-cloudmqcluster",context="/",host="localhost"} 0.0
+# TYPE cloudmq_web_executor_active_threads gauge
+cloudmq_web_executor_active_threads{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_broker_lookup_pending_requests gauge
+cloudmq_broker_lookup_pending_requests{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE brk_ledgeroffloader_offload_rate gauge
+# TYPE bes_threadpool_currentthreadcount gauge
+bes_threadpool_currentthreadcount{cluster="cluster-a-cloudmqcluster",name="http-nio-0.0.0.0-7080"} 14.0
+bes_threadpool_currentthreadcount{cluster="cluster-a-cloudmqcluster",name="http-nio-15673"} 10.0
+# TYPE bes_threadpool_currentthreadsbusy gauge
+bes_threadpool_currentthreadsbusy{cluster="cluster-a-cloudmqcluster",name="http-nio-0.0.0.0-7080"} 4.0
+bes_threadpool_currentthreadsbusy{cluster="cluster-a-cloudmqcluster",name="http-nio-15673"} 0.0
+# TYPE bes_threadpool_acceptcount gauge
+bes_threadpool_acceptcount{cluster="cluster-a-cloudmqcluster",name="http-nio-0.0.0.0-7080"} 8192.0
+bes_threadpool_acceptcount{cluster="cluster-a-cloudmqcluster",name="http-nio-15673"} 1024.0
+# TYPE bes_threadpool_keepalivecount gauge
+bes_threadpool_keepalivecount{cluster="cluster-a-cloudmqcluster",name="http-nio-0.0.0.0-7080"} 1.0
+bes_threadpool_keepalivecount{cluster="cluster-a-cloudmqcluster",name="http-nio-15673"} 0.0
+# TYPE bes_threadpool_pollerthreadcount gauge
+bes_threadpool_pollerthreadcount{cluster="cluster-a-cloudmqcluster",name="http-nio-0.0.0.0-7080"} 1.0
+bes_threadpool_pollerthreadcount{cluster="cluster-a-cloudmqcluster",name="http-nio-15673"} 1.0
+# TYPE bes_threadpool_connectioncount gauge
+bes_threadpool_connectioncount{cluster="cluster-a-cloudmqcluster",name="http-nio-0.0.0.0-7080"} 18.0
+bes_threadpool_connectioncount{cluster="cluster-a-cloudmqcluster",name="http-nio-15673"} 0.0
+# TYPE cloudmq_resource_group_tenant_registers counter
+# TYPE process_cpu_seconds counter
+process_cpu_seconds_total{cluster="cluster-a-cloudmqcluster"} 22.83
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds{cluster="cluster-a-cloudmqcluster"} 1.775735050736E9
+# TYPE process_open_fds gauge
+process_open_fds{cluster="cluster-a-cloudmqcluster"} 612.0
+# TYPE process_max_fds gauge
+process_max_fds{cluster="cluster-a-cloudmqcluster"} 1048576.0
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes{cluster="cluster-a-cloudmqcluster"} 6.6257248256E10
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes{cluster="cluster-a-cloudmqcluster"} 1.890988032E9
+# TYPE brk_ledgeroffloader_read_offload_error counter
+# TYPE cloudmq_web_executor_idle_threads gauge
+cloudmq_web_executor_idle_threads{cluster="cluster-a-cloudmqcluster"} 8.0
+# TYPE cloudmq_resource_group_calculate_quota_secs summary
+cloudmq_resource_group_calculate_quota_secs{cluster="cluster-a-cloudmqcluster",quantile="0.5"} NaN
+cloudmq_resource_group_calculate_quota_secs{cluster="cluster-a-cloudmqcluster",quantile="0.9"} NaN
+cloudmq_resource_group_calculate_quota_secs_count{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_resource_group_calculate_quota_secs_sum{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_resource_group_calculate_quota_secs_created{cluster="cluster-a-cloudmqcluster"} 1.77573505454E9
+# TYPE cloudmq_web_executor_min_threads gauge
+cloudmq_web_executor_min_threads{cluster="cluster-a-cloudmqcluster"} 8.0
+# TYPE cloudmq_topic_load_times summary
+cloudmq_topic_load_times{cluster="cluster-a-cloudmqcluster",quantile="0.5"} 81.0
+cloudmq_topic_load_times{cluster="cluster-a-cloudmqcluster",quantile="0.75"} 88.0
+cloudmq_topic_load_times{cluster="cluster-a-cloudmqcluster",quantile="0.95"} 387.0
+cloudmq_topic_load_times{cluster="cluster-a-cloudmqcluster",quantile="0.99"} 387.0
+cloudmq_topic_load_times{cluster="cluster-a-cloudmqcluster",quantile="0.999"} 387.0
+cloudmq_topic_load_times{cluster="cluster-a-cloudmqcluster",quantile="0.9999"} 387.0
+cloudmq_topic_load_times_count{cluster="cluster-a-cloudmqcluster"} 4.0
+cloudmq_topic_load_times_sum{cluster="cluster-a-cloudmqcluster"} 587.0
+cloudmq_topic_load_times_created{cluster="cluster-a-cloudmqcluster"} 1.775735174599E9
+# TYPE cloudmq_broker_publish_latency summary
+cloudmq_broker_publish_latency{cluster="cluster-a-cloudmqcluster",quantile="0.0"} NaN
+cloudmq_broker_publish_latency{cluster="cluster-a-cloudmqcluster",quantile="0.5"} NaN
+cloudmq_broker_publish_latency{cluster="cluster-a-cloudmqcluster",quantile="0.95"} NaN
+cloudmq_broker_publish_latency{cluster="cluster-a-cloudmqcluster",quantile="0.99"} NaN
+cloudmq_broker_publish_latency{cluster="cluster-a-cloudmqcluster",quantile="0.999"} NaN
+cloudmq_broker_publish_latency{cluster="cluster-a-cloudmqcluster",quantile="0.9999"} NaN
+cloudmq_broker_publish_latency{cluster="cluster-a-cloudmqcluster",quantile="1.0"} NaN
+cloudmq_broker_publish_latency_count{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_broker_publish_latency_sum{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_schema_del_ops_failed counter
+# TYPE brk_ledgeroffloader_read_offload_rate gauge
+# TYPE cloudmq_expired_token counter
+cloudmq_expired_token_total{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_expired_token_created{cluster="cluster-a-cloudmqcluster"} 1.775735054319E9
+# TYPE cloudmq_ml_cache_pendingreads_entries_notread counter
+cloudmq_ml_cache_pendingreads_entries_notread_total{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_ml_cache_pendingreads_entries_notread_created{cluster="cluster-a-cloudmqcluster"} 1.775735188894E9
+# TYPE cloudmq_resource_group_tenant_unregisters counter
+# TYPE cloudmq_authentication_failures counter
+cloudmq_authentication_failures_total{cluster="cluster-a-cloudmqcluster",provider_name="AuthenticationProviderBasic",auth_method="basic",reason="INVALID_HEADER"} 56.0
+cloudmq_authentication_failures_created{cluster="cluster-a-cloudmqcluster",provider_name="AuthenticationProviderBasic",auth_method="basic",reason="INVALID_HEADER"} 1.775735064639E9
+# TYPE cloudmq_batch_metadata_store_queue_wait_time_ms histogram
+cloudmq_batch_metadata_store_queue_wait_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="1.0"} 72.0
+cloudmq_batch_metadata_store_queue_wait_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="5.0"} 290.0
+cloudmq_batch_metadata_store_queue_wait_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="10.0"} 296.0
+cloudmq_batch_metadata_store_queue_wait_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="20.0"} 296.0
+cloudmq_batch_metadata_store_queue_wait_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="50.0"} 298.0
+cloudmq_batch_metadata_store_queue_wait_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="100.0"} 304.0
+cloudmq_batch_metadata_store_queue_wait_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="200.0"} 306.0
+cloudmq_batch_metadata_store_queue_wait_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="500.0"} 306.0
+cloudmq_batch_metadata_store_queue_wait_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="1000.0"} 306.0
+cloudmq_batch_metadata_store_queue_wait_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="+Inf"} 310.0
+cloudmq_batch_metadata_store_queue_wait_time_ms_count{cluster="cluster-a-cloudmqcluster",name="metadata-store"} 310.0
+cloudmq_batch_metadata_store_queue_wait_time_ms_sum{cluster="cluster-a-cloudmqcluster",name="metadata-store"} 429700.0
+cloudmq_batch_metadata_store_queue_wait_time_ms_created{cluster="cluster-a-cloudmqcluster",name="metadata-store"} 1.775735052215E9
+# TYPE cloudmq_ml_reads_inflight_bytes gauge
+cloudmq_ml_reads_inflight_bytes{cluster="cluster-a-cloudmqcluster"} -1.0
+# TYPE cloudmq_resource_group_calculated_bytes_quota counter
+# TYPE cloudmq_resource_group_namespace_registers counter
+# TYPE brk_ledgeroffloader_read_offload_index_latency summary
+# TYPE log4j2_appender counter
+log4j2_appender_total{cluster="cluster-a-cloudmqcluster",level="debug"} 0.0
+log4j2_appender_created{cluster="cluster-a-cloudmqcluster",level="debug"} 1.775735051687E9
+log4j2_appender_total{cluster="cluster-a-cloudmqcluster",level="warn"} 187.0
+log4j2_appender_created{cluster="cluster-a-cloudmqcluster",level="warn"} 1.775735051687E9
+log4j2_appender_total{cluster="cluster-a-cloudmqcluster",level="trace"} 0.0
+log4j2_appender_created{cluster="cluster-a-cloudmqcluster",level="trace"} 1.775735051687E9
+log4j2_appender_total{cluster="cluster-a-cloudmqcluster",level="error"} 4.0
+log4j2_appender_created{cluster="cluster-a-cloudmqcluster",level="error"} 1.775735051687E9
+log4j2_appender_total{cluster="cluster-a-cloudmqcluster",level="fatal"} 0.0
+log4j2_appender_created{cluster="cluster-a-cloudmqcluster",level="fatal"} 1.775735051687E9
+log4j2_appender_total{cluster="cluster-a-cloudmqcluster",level="info"} 354.0
+log4j2_appender_created{cluster="cluster-a-cloudmqcluster",level="info"} 1.775735051687E9
+# TYPE cloudmq_ml_reads_available_inflight_bytes gauge
+cloudmq_ml_reads_available_inflight_bytes{cluster="cluster-a-cloudmqcluster"} -1.0
+# TYPE jvm_buffer_pool_used_bytes gauge
+jvm_buffer_pool_used_bytes{cluster="cluster-a-cloudmqcluster",pool="mapped"} 0.0
+jvm_buffer_pool_used_bytes{cluster="cluster-a-cloudmqcluster",pool="direct"} 2072042.0
+jvm_buffer_pool_used_bytes{cluster="cluster-a-cloudmqcluster",pool="mapped - 'non-volatile memory'"} 0.0
+# TYPE jvm_buffer_pool_capacity_bytes gauge
+jvm_buffer_pool_capacity_bytes{cluster="cluster-a-cloudmqcluster",pool="mapped"} 0.0
+jvm_buffer_pool_capacity_bytes{cluster="cluster-a-cloudmqcluster",pool="direct"} 2072041.0
+jvm_buffer_pool_capacity_bytes{cluster="cluster-a-cloudmqcluster",pool="mapped - 'non-volatile memory'"} 0.0
+# TYPE jvm_buffer_pool_used_buffers gauge
+jvm_buffer_pool_used_buffers{cluster="cluster-a-cloudmqcluster",pool="mapped"} 0.0
+jvm_buffer_pool_used_buffers{cluster="cluster-a-cloudmqcluster",pool="direct"} 63.0
+jvm_buffer_pool_used_buffers{cluster="cluster-a-cloudmqcluster",pool="mapped - 'non-volatile memory'"} 0.0
+# TYPE jvm_classes_currently_loaded gauge
+jvm_classes_currently_loaded{cluster="cluster-a-cloudmqcluster"} 14344.0
+# TYPE jvm_classes_loaded counter
+jvm_classes_loaded_total{cluster="cluster-a-cloudmqcluster"} 14376.0
+# TYPE jvm_classes_unloaded counter
+jvm_classes_unloaded_total{cluster="cluster-a-cloudmqcluster"} 32.0
+# TYPE cloudmq_broker_lookup_redirects counter
+cloudmq_broker_lookup_redirects_total{cluster="cluster-a-cloudmqcluster"} 10.0
+cloudmq_broker_lookup_redirects_created{cluster="cluster-a-cloudmqcluster"} 1.775735054435E9
+# TYPE brk_ledgeroffloader_read_bytes counter
+# TYPE cloudmq_ml_cache_pendingreads_matched_included counter
+cloudmq_ml_cache_pendingreads_matched_included_total{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_ml_cache_pendingreads_matched_included_created{cluster="cluster-a-cloudmqcluster"} 1.775735188894E9
+# TYPE cloudmq_metadata_store_put_bytes counter
+cloudmq_metadata_store_put_bytes_total{cluster="cluster-a-cloudmqcluster",name="metadata-store"} 5445.0
+cloudmq_metadata_store_put_bytes_created{cluster="cluster-a-cloudmqcluster",name="metadata-store"} 1.775735052209E9
+# TYPE jvm_threads_current gauge
+jvm_threads_current{cluster="cluster-a-cloudmqcluster"} 168.0
+# TYPE jvm_threads_daemon gauge
+jvm_threads_daemon{cluster="cluster-a-cloudmqcluster"} 55.0
+# TYPE jvm_threads_peak gauge
+jvm_threads_peak{cluster="cluster-a-cloudmqcluster"} 168.0
+# TYPE jvm_threads_started counter
+jvm_threads_started_total{cluster="cluster-a-cloudmqcluster"} 207.0
+# TYPE jvm_threads_deadlocked gauge
+jvm_threads_deadlocked{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE jvm_threads_deadlocked_monitor gauge
+jvm_threads_deadlocked_monitor{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE jvm_threads_state gauge
+jvm_threads_state{cluster="cluster-a-cloudmqcluster",state="NEW"} 0.0
+jvm_threads_state{cluster="cluster-a-cloudmqcluster",state="TERMINATED"} 0.0
+jvm_threads_state{cluster="cluster-a-cloudmqcluster",state="RUNNABLE"} 39.0
+jvm_threads_state{cluster="cluster-a-cloudmqcluster",state="BLOCKED"} 0.0
+jvm_threads_state{cluster="cluster-a-cloudmqcluster",state="WAITING"} 77.0
+jvm_threads_state{cluster="cluster-a-cloudmqcluster",state="TIMED_WAITING"} 52.0
+jvm_threads_state{cluster="cluster-a-cloudmqcluster",state="UNKNOWN"} 0.0
+# TYPE brk_ledgeroffloader_read_offload_data_latency summary
+# TYPE cloudmq_broker_topic_load_pending_requests gauge
+cloudmq_broker_topic_load_pending_requests{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE topic_load_times summary
+topic_load_times{cluster="cluster-a-cloudmqcluster",quantile="0.5"} 81.0
+topic_load_times{cluster="cluster-a-cloudmqcluster",quantile="0.75"} 88.0
+topic_load_times{cluster="cluster-a-cloudmqcluster",quantile="0.95"} 387.0
+topic_load_times{cluster="cluster-a-cloudmqcluster",quantile="0.99"} 387.0
+topic_load_times{cluster="cluster-a-cloudmqcluster",quantile="0.999"} 387.0
+topic_load_times{cluster="cluster-a-cloudmqcluster",quantile="0.9999"} 387.0
+topic_load_times_count{cluster="cluster-a-cloudmqcluster"} 4.0
+topic_load_times_sum{cluster="cluster-a-cloudmqcluster"} 587.0
+topic_load_times_created{cluster="cluster-a-cloudmqcluster"} 1.775735174599E9
+# TYPE brk_ledgeroffloader_offload_error counter
+# TYPE cloudmq_schema_incompatible counter
+# TYPE brk_ledgeroffloader_read_ledger_latency summary
+# TYPE cloudmq_resource_group_bytes_used counter
+# TYPE jvm_memory_direct_bytes_used gauge
+jvm_memory_direct_bytes_used{cluster="cluster-a-cloudmqcluster"} 1.6842759E7
+# TYPE cloudmq_broker_load_manager_bundle_assigment summary
+cloudmq_broker_load_manager_bundle_assigment{cluster="cluster-a-cloudmqcluster",quantile="0.5"} NaN
+cloudmq_broker_load_manager_bundle_assigment{cluster="cluster-a-cloudmqcluster",quantile="0.99"} NaN
+cloudmq_broker_load_manager_bundle_assigment{cluster="cluster-a-cloudmqcluster",quantile="0.999"} NaN
+cloudmq_broker_load_manager_bundle_assigment{cluster="cluster-a-cloudmqcluster",quantile="1.0"} NaN
+cloudmq_broker_load_manager_bundle_assigment_count{cluster="cluster-a-cloudmqcluster"} 11.0
+cloudmq_broker_load_manager_bundle_assigment_sum{cluster="cluster-a-cloudmqcluster"} 227.0
+# TYPE cloudmq_schema_del_ops_latency summary
+# TYPE cloudmq_broker_throttled_connections_global_limit gauge
+cloudmq_broker_throttled_connections_global_limit{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_batch_metadata_store_batch_execute_time_ms histogram
+cloudmq_batch_metadata_store_batch_execute_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="1.0"} 129.0
+cloudmq_batch_metadata_store_batch_execute_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="5.0"} 132.0
+cloudmq_batch_metadata_store_batch_execute_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="10.0"} 132.0
+cloudmq_batch_metadata_store_batch_execute_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="20.0"} 132.0
+cloudmq_batch_metadata_store_batch_execute_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="50.0"} 132.0
+cloudmq_batch_metadata_store_batch_execute_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="100.0"} 132.0
+cloudmq_batch_metadata_store_batch_execute_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="200.0"} 132.0
+cloudmq_batch_metadata_store_batch_execute_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="500.0"} 132.0
+cloudmq_batch_metadata_store_batch_execute_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="1000.0"} 132.0
+cloudmq_batch_metadata_store_batch_execute_time_ms_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="+Inf"} 132.0
+cloudmq_batch_metadata_store_batch_execute_time_ms_count{cluster="cluster-a-cloudmqcluster",name="metadata-store"} 132.0
+cloudmq_batch_metadata_store_batch_execute_time_ms_sum{cluster="cluster-a-cloudmqcluster",name="metadata-store"} 18.0
+cloudmq_batch_metadata_store_batch_execute_time_ms_created{cluster="cluster-a-cloudmqcluster",name="metadata-store"} 1.775735052215E9
+# TYPE cloudmq_resource_group_namespace_unregisters counter
+# TYPE cloudmq_batch_metadata_store_batch_size histogram
+cloudmq_batch_metadata_store_batch_size_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="1.0"} 94.0
+cloudmq_batch_metadata_store_batch_size_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="5.0"} 126.0
+cloudmq_batch_metadata_store_batch_size_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="10.0"} 129.0
+cloudmq_batch_metadata_store_batch_size_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="20.0"} 130.0
+cloudmq_batch_metadata_store_batch_size_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="50.0"} 132.0
+cloudmq_batch_metadata_store_batch_size_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="100.0"} 132.0
+cloudmq_batch_metadata_store_batch_size_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="200.0"} 132.0
+cloudmq_batch_metadata_store_batch_size_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="500.0"} 132.0
+cloudmq_batch_metadata_store_batch_size_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="1000.0"} 132.0
+cloudmq_batch_metadata_store_batch_size_bucket{cluster="cluster-a-cloudmqcluster",name="metadata-store",le="+Inf"} 132.0
+cloudmq_batch_metadata_store_batch_size_count{cluster="cluster-a-cloudmqcluster",name="metadata-store"} 132.0
+cloudmq_batch_metadata_store_batch_size_sum{cluster="cluster-a-cloudmqcluster",name="metadata-store"} 310.0
+cloudmq_batch_metadata_store_batch_size_created{cluster="cluster-a-cloudmqcluster",name="metadata-store"} 1.775735052215E9
+# TYPE cloudmq_schema_get_ops_latency summary
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",quantile="0.5"} 134.0
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",quantile="0.75"} 134.0
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",quantile="0.95"} 134.0
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",quantile="0.99"} 134.0
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",quantile="0.999"} 134.0
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",quantile="0.9999"} 134.0
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",quantile="1.0"} 134.0
+cloudmq_schema_get_ops_latency_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor"} 1.0
+cloudmq_schema_get_ops_latency_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor"} 134.0
+cloudmq_schema_get_ops_latency_created{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor"} 1.775735189335E9
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",quantile="0.5"} 8.0
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",quantile="0.75"} 8.0
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",quantile="0.95"} 8.0
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",quantile="0.99"} 8.0
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",quantile="0.999"} 8.0
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",quantile="0.9999"} 8.0
+cloudmq_schema_get_ops_latency{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",quantile="1.0"} 8.0
+cloudmq_schema_get_ops_latency_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system"} 1.0
+cloudmq_schema_get_ops_latency_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system"} 8.0
+cloudmq_schema_get_ops_latency_created{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system"} 1.775735189621E9
+# TYPE cloudmq_web_executor_max_threads gauge
+cloudmq_web_executor_max_threads{cluster="cluster-a-cloudmqcluster"} 8.0
+# TYPE cloudmq_ml_cache_pendingreads_matched counter
+cloudmq_ml_cache_pendingreads_matched_total{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_ml_cache_pendingreads_matched_created{cluster="cluster-a-cloudmqcluster"} 1.775735188894E9
+# TYPE cloudmq_ml_cache_pendingreads_matched_overlapping_miss_right counter
+cloudmq_ml_cache_pendingreads_matched_overlapping_miss_right_total{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_ml_cache_pendingreads_matched_overlapping_miss_right_created{cluster="cluster-a-cloudmqcluster"} 1.775735188895E9
+# TYPE cloudmq_schema_get_ops_failed counter
+# TYPE cloudmq_expiring_token_minutes histogram
+cloudmq_expiring_token_minutes_bucket{cluster="cluster-a-cloudmqcluster",le="5.0"} 0.0
+cloudmq_expiring_token_minutes_bucket{cluster="cluster-a-cloudmqcluster",le="10.0"} 0.0
+cloudmq_expiring_token_minutes_bucket{cluster="cluster-a-cloudmqcluster",le="60.0"} 0.0
+cloudmq_expiring_token_minutes_bucket{cluster="cluster-a-cloudmqcluster",le="240.0"} 0.0
+cloudmq_expiring_token_minutes_bucket{cluster="cluster-a-cloudmqcluster",le="+Inf"} 0.0
+cloudmq_expiring_token_minutes_count{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_expiring_token_minutes_sum{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_expiring_token_minutes_created{cluster="cluster-a-cloudmqcluster"} 1.775735054319E9
+# TYPE cloudmq_ml_cache_pendingreads_entries_read counter
+cloudmq_ml_cache_pendingreads_entries_read_total{cluster="cluster-a-cloudmqcluster"} 0.0
+cloudmq_ml_cache_pendingreads_entries_read_created{cluster="cluster-a-cloudmqcluster"} 1.775735188894E9
+# TYPE bes_servlet_errorcount counter
+bes_servlet_errorcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="VipStatus"} 56.0
+bes_servlet_errorcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="metrics"} 0.0
+bes_servlet_errorcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="adminRestV3"} 0.0
+bes_servlet_errorcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="adminRestV1"} 0.0
+bes_servlet_errorcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="Topics"} 0.0
+bes_servlet_errorcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="TopicLookup"} 0.0
+bes_servlet_errorcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="adminRestV2"} 0.0
+bes_servlet_errorcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/api",servlet="ServletContainer"} 0.0
+# TYPE bes_servlet_requestcount counter
+bes_servlet_requestcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="VipStatus"} 56.0
+bes_servlet_requestcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="metrics"} 13.0
+bes_servlet_requestcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="adminRestV3"} 0.0
+bes_servlet_requestcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="adminRestV1"} 0.0
+bes_servlet_requestcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="Topics"} 0.0
+bes_servlet_requestcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="TopicLookup"} 11.0
+bes_servlet_requestcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="adminRestV2"} 96.0
+bes_servlet_requestcount_total{cluster="cluster-a-cloudmqcluster",module="localhost/api",servlet="ServletContainer"} 0.0
+# TYPE bes_servlet_maxtime_total gauge
+bes_servlet_maxtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="VipStatus"} 38.0
+bes_servlet_maxtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="metrics"} 1.0
+bes_servlet_maxtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="adminRestV3"} 0.0
+bes_servlet_maxtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="adminRestV1"} 0.0
+bes_servlet_maxtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="Topics"} 0.0
+bes_servlet_maxtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="TopicLookup"} 61.0
+bes_servlet_maxtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="adminRestV2"} 1406.0
+bes_servlet_maxtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/api",servlet="ServletContainer"} 0.0
+# TYPE bes_servlet_processingtime_total gauge
+bes_servlet_processingtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="VipStatus"} 186.0
+bes_servlet_processingtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="metrics"} 3.0
+bes_servlet_processingtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="adminRestV3"} 0.0
+bes_servlet_processingtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="adminRestV1"} 0.0
+bes_servlet_processingtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="Topics"} 0.0
+bes_servlet_processingtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="TopicLookup"} 145.0
+bes_servlet_processingtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/",servlet="adminRestV2"} 3683.0
+bes_servlet_processingtime_total{cluster="cluster-a-cloudmqcluster",module="localhost/api",servlet="ServletContainer"} 0.0
+# TYPE cloudmq_subscription_filter_processed_msg_count gauge
+cloudmq_subscription_filter_processed_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_filter_processed_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_filter_processed_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_filter_processed_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_broker_rate_in gauge
+cloudmq_broker_rate_in{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_storage_ledger_write_latency_le_20 gauge
+cloudmq_storage_ledger_write_latency_le_20{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_ledger_write_latency_le_20{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_ledger_write_latency_le_20{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_ledger_write_latency_le_20{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_consumers_count gauge
+cloudmq_subscription_consumers_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 1
+cloudmq_subscription_consumers_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_consumers_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_consumers_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 1
+# TYPE cloudmq_subscription_total_msg_expired gauge
+cloudmq_subscription_total_msg_expired{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_total_msg_expired{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_total_msg_expired{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_total_msg_expired{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_entry_size_le_16_kb gauge
+cloudmq_entry_size_le_16_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_entry_size_le_16_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_entry_size_le_16_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_entry_size_le_16_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_write_latency_overflow gauge
+cloudmq_storage_write_latency_overflow{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_write_latency_overflow{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_write_latency_overflow{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_write_latency_overflow{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_last_mark_delete_advanced_timestamp gauge
+cloudmq_subscription_last_mark_delete_advanced_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_last_mark_delete_advanced_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_last_mark_delete_advanced_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_last_mark_delete_advanced_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_broker_storage_logical_size gauge
+cloudmq_broker_storage_logical_size{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_publish_rate_limit_times gauge
+cloudmq_publish_rate_limit_times{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_publish_rate_limit_times{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_publish_rate_limit_times{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_publish_rate_limit_times{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_ledger_write_latency_le_1 gauge
+cloudmq_storage_ledger_write_latency_le_1{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_ledger_write_latency_le_1{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_ledger_write_latency_le_1{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_ledger_write_latency_le_1{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_ledger_write_latency_le_5 gauge
+cloudmq_storage_ledger_write_latency_le_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_ledger_write_latency_le_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_ledger_write_latency_le_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_ledger_write_latency_le_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_filter_accepted_msg_count gauge
+cloudmq_subscription_filter_accepted_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_filter_accepted_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_filter_accepted_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_filter_accepted_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_subscription_msg_rate_out gauge
+cloudmq_subscription_msg_rate_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0.0
+cloudmq_subscription_msg_rate_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0.0
+cloudmq_subscription_msg_rate_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0.0
+cloudmq_subscription_msg_rate_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0.0
+# TYPE cloudmq_storage_ledger_write_latency_le_1000 gauge
+cloudmq_storage_ledger_write_latency_le_1000{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_ledger_write_latency_le_1000{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_ledger_write_latency_le_1000{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_ledger_write_latency_le_1000{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_txn_tb_active_total gauge
+cloudmq_txn_tb_active_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_txn_tb_active_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_txn_tb_active_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_txn_tb_active_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscriptions_count gauge
+cloudmq_subscriptions_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 2
+cloudmq_subscriptions_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_subscriptions_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_subscriptions_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 2
+# TYPE cloudmq_broker_subscriptions_count gauge
+cloudmq_broker_subscriptions_count{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_storage_backlog_size gauge
+cloudmq_storage_backlog_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_backlog_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_backlog_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_backlog_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_ledger_write_latency_le_10 gauge
+cloudmq_storage_ledger_write_latency_le_10{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_ledger_write_latency_le_10{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_ledger_write_latency_le_10{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_ledger_write_latency_le_10{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_msg_drop_rate gauge
+cloudmq_subscription_msg_drop_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0.0
+cloudmq_subscription_msg_drop_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0.0
+cloudmq_subscription_msg_drop_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0.0
+cloudmq_subscription_msg_drop_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0.0
+# TYPE cloudmq_entry_size_count gauge
+cloudmq_entry_size_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_entry_size_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_entry_size_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_entry_size_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_out_messages_total gauge
+cloudmq_out_messages_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_out_messages_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_out_messages_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_out_messages_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_storage_ledger_write_latency_count gauge
+cloudmq_storage_ledger_write_latency_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_ledger_write_latency_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_ledger_write_latency_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_ledger_write_latency_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_broker_storage_write_rate gauge
+cloudmq_broker_storage_write_rate{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_txn_tb_committed_total gauge
+cloudmq_txn_tb_committed_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_txn_tb_committed_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_txn_tb_committed_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_txn_tb_committed_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_broker_topics_count gauge
+cloudmq_broker_topics_count{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_broker_throughput_out gauge
+cloudmq_broker_throughput_out{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_storage_write_latency_le_0_5 gauge
+cloudmq_storage_write_latency_le_0_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_write_latency_le_0_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_write_latency_le_0_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_write_latency_le_0_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_write_latency_sum gauge
+cloudmq_storage_write_latency_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_write_latency_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_write_latency_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_write_latency_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_ledger_write_latency_le_100 gauge
+cloudmq_storage_ledger_write_latency_le_100{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_ledger_write_latency_le_100{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_ledger_write_latency_le_100{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_ledger_write_latency_le_100{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_blocked_on_unacked_messages gauge
+cloudmq_subscription_blocked_on_unacked_messages{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_blocked_on_unacked_messages{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_blocked_on_unacked_messages{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_blocked_on_unacked_messages{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_storage_write_latency_le_20 gauge
+cloudmq_storage_write_latency_le_20{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_write_latency_le_20{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_write_latency_le_20{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_write_latency_le_20{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_write_latency_le_100 gauge
+cloudmq_storage_write_latency_le_100{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_write_latency_le_100{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_write_latency_le_100{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_write_latency_le_100{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_backlog_quota_limit gauge
+cloudmq_storage_backlog_quota_limit{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} -1
+cloudmq_storage_backlog_quota_limit{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} -1
+cloudmq_storage_backlog_quota_limit{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} -1
+cloudmq_storage_backlog_quota_limit{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} -1
+# TYPE cloudmq_rate_in gauge
+cloudmq_rate_in{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0.0
+cloudmq_rate_in{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0.0
+cloudmq_rate_in{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0.0
+cloudmq_rate_in{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0.0
+# TYPE cloudmq_storage_ledger_write_latency_le_0_5 gauge
+cloudmq_storage_ledger_write_latency_le_0_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_ledger_write_latency_le_0_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_ledger_write_latency_le_0_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_ledger_write_latency_le_0_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_last_expire_timestamp gauge
+cloudmq_subscription_last_expire_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_last_expire_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_last_expire_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_last_expire_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_delayed_message_index_size_bytes gauge
+cloudmq_delayed_message_index_size_bytes{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_delayed_message_index_size_bytes{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_delayed_message_index_size_bytes{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_delayed_message_index_size_bytes{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_delayed_message_index_size_bytes{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_delayed_message_index_size_bytes{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+cloudmq_delayed_message_index_size_bytes{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_delayed_message_index_size_bytes{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_broker_storage_read_rate gauge
+cloudmq_broker_storage_read_rate{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_broker_producers_count gauge
+cloudmq_broker_producers_count{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_in_bytes_total gauge
+cloudmq_in_bytes_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_in_bytes_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_in_bytes_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_in_bytes_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_broker_rate_out gauge
+cloudmq_broker_rate_out{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_subscription_last_acked_timestamp gauge
+cloudmq_subscription_last_acked_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_last_acked_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_last_acked_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_last_acked_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_storage_ledger_write_latency_overflow gauge
+cloudmq_storage_ledger_write_latency_overflow{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_ledger_write_latency_overflow{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_ledger_write_latency_overflow{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_ledger_write_latency_overflow{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_write_latency_le_10 gauge
+cloudmq_storage_write_latency_le_10{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_write_latency_le_10{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_write_latency_le_10{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_write_latency_le_10{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_last_consumed_flow_timestamp gauge
+cloudmq_subscription_last_consumed_flow_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 1775735189396
+cloudmq_subscription_last_consumed_flow_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_last_consumed_flow_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_last_consumed_flow_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 1775735189626
+# TYPE cloudmq_storage_write_latency_count gauge
+cloudmq_storage_write_latency_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_write_latency_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_write_latency_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_write_latency_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_topics_count gauge
+cloudmq_topics_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor"} 3
+cloudmq_topics_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system"} 1
+# TYPE cloudmq_in_messages_total gauge
+cloudmq_in_messages_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_in_messages_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_in_messages_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_in_messages_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_read_rate gauge
+cloudmq_storage_read_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0.0
+cloudmq_storage_read_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0.0
+cloudmq_storage_read_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0.0
+cloudmq_storage_read_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0.0
+# TYPE cloudmq_entry_size_le_128 gauge
+cloudmq_entry_size_le_128{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_entry_size_le_128{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_entry_size_le_128{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_entry_size_le_128{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_entry_size_sum gauge
+cloudmq_entry_size_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_entry_size_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_entry_size_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_entry_size_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_read_cache_misses_rate gauge
+cloudmq_storage_read_cache_misses_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0.0
+cloudmq_storage_read_cache_misses_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0.0
+cloudmq_storage_read_cache_misses_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0.0
+cloudmq_storage_read_cache_misses_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0.0
+# TYPE cloudmq_entry_size_le_100_kb gauge
+cloudmq_entry_size_le_100_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_entry_size_le_100_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_entry_size_le_100_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_entry_size_le_100_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_entry_size_le_4_kb gauge
+cloudmq_entry_size_le_4_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_entry_size_le_4_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_entry_size_le_4_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_entry_size_le_4_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_ledger_write_latency_le_200 gauge
+cloudmq_storage_ledger_write_latency_le_200{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_ledger_write_latency_le_200{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_ledger_write_latency_le_200{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_ledger_write_latency_le_200{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_entry_size_le_1_kb gauge
+cloudmq_entry_size_le_1_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_entry_size_le_1_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_entry_size_le_1_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_entry_size_le_1_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_broker_storage_size gauge
+cloudmq_broker_storage_size{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_broker_consumers_count gauge
+cloudmq_broker_consumers_count{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_storage_write_latency_le_200 gauge
+cloudmq_storage_write_latency_le_200{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_write_latency_le_200{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_write_latency_le_200{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_write_latency_le_200{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_backlog_quota_limit_time gauge
+cloudmq_storage_backlog_quota_limit_time{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 86400
+cloudmq_storage_backlog_quota_limit_time{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 86400
+cloudmq_storage_backlog_quota_limit_time{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 86400
+cloudmq_storage_backlog_quota_limit_time{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} -1
+# TYPE cloudmq_storage_ledger_write_latency_sum gauge
+cloudmq_storage_ledger_write_latency_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_ledger_write_latency_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_ledger_write_latency_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_ledger_write_latency_sum{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_rate_out gauge
+cloudmq_rate_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0.0
+cloudmq_rate_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0.0
+cloudmq_rate_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0.0
+cloudmq_rate_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0.0
+# TYPE cloudmq_storage_ledger_write_latency_le_50 gauge
+cloudmq_storage_ledger_write_latency_le_50{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_ledger_write_latency_le_50{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_ledger_write_latency_le_50{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_ledger_write_latency_le_50{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_unacked_messages gauge
+cloudmq_subscription_unacked_messages{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_unacked_messages{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_unacked_messages{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_unacked_messages{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_entry_size_le_512 gauge
+cloudmq_entry_size_le_512{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_entry_size_le_512{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_entry_size_le_512{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_entry_size_le_512{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_delayed gauge
+cloudmq_subscription_delayed{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_delayed{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_delayed{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_delayed{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_subscription_msg_ack_rate gauge
+cloudmq_subscription_msg_ack_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0.0
+cloudmq_subscription_msg_ack_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0.0
+cloudmq_subscription_msg_ack_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0.0
+cloudmq_subscription_msg_ack_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0.0
+# TYPE cloudmq_entry_size_le_1_mb gauge
+cloudmq_entry_size_le_1_mb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_entry_size_le_1_mb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_entry_size_le_1_mb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_entry_size_le_1_mb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_msg_throughput_out gauge
+cloudmq_subscription_msg_throughput_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0.0
+cloudmq_subscription_msg_throughput_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0.0
+cloudmq_subscription_msg_throughput_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0.0
+cloudmq_subscription_msg_throughput_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0.0
+# TYPE cloudmq_broker_throughput_in gauge
+cloudmq_broker_throughput_in{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_storage_logical_size gauge
+cloudmq_storage_logical_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_logical_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 115088
+cloudmq_storage_logical_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 688269
+cloudmq_storage_logical_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_broker_storage_read_cache_misses_rate gauge
+cloudmq_broker_storage_read_cache_misses_rate{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_storage_write_latency_le_1000 gauge
+cloudmq_storage_write_latency_le_1000{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_write_latency_le_1000{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_write_latency_le_1000{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_write_latency_le_1000{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_producers_count gauge
+cloudmq_producers_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_producers_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 1
+cloudmq_producers_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 1
+cloudmq_producers_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_throughput_in gauge
+cloudmq_throughput_in{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0.0
+cloudmq_throughput_in{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0.0
+cloudmq_throughput_in{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0.0
+cloudmq_throughput_in{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0.0
+# TYPE cloudmq_entry_size_le_2_kb gauge
+cloudmq_entry_size_le_2_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_entry_size_le_2_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_entry_size_le_2_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_entry_size_le_2_kb{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_offloaded_size gauge
+cloudmq_storage_offloaded_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_offloaded_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_offloaded_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_offloaded_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_back_log gauge
+cloudmq_subscription_back_log{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_back_log{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_back_log{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_back_log{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_average_msg_size gauge
+cloudmq_average_msg_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0.0
+cloudmq_average_msg_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0.0
+cloudmq_average_msg_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0.0
+cloudmq_average_msg_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0.0
+# TYPE cloudmq_storage_write_rate gauge
+cloudmq_storage_write_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0.0
+cloudmq_storage_write_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0.0
+cloudmq_storage_write_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0.0
+cloudmq_storage_write_rate{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0.0
+# TYPE cloudmq_subscription_msg_rate_expired gauge
+cloudmq_subscription_msg_rate_expired{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0.0
+cloudmq_subscription_msg_rate_expired{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0.0
+cloudmq_subscription_msg_rate_expired{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0.0
+cloudmq_subscription_msg_rate_expired{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0.0
+# TYPE cloudmq_subscription_last_consumed_timestamp gauge
+cloudmq_subscription_last_consumed_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_last_consumed_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_last_consumed_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_last_consumed_timestamp{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_out_bytes_total gauge
+cloudmq_out_bytes_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_out_bytes_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_out_bytes_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_out_bytes_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_consumers_count gauge
+cloudmq_consumers_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 1
+cloudmq_consumers_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_consumers_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_consumers_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 1
+# TYPE cloudmq_storage_size gauge
+cloudmq_storage_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 230176
+cloudmq_storage_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 1376538
+cloudmq_storage_size{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_msg_rate_redeliver gauge
+cloudmq_subscription_msg_rate_redeliver{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0.0
+cloudmq_subscription_msg_rate_redeliver{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0.0
+cloudmq_subscription_msg_rate_redeliver{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0.0
+cloudmq_subscription_msg_rate_redeliver{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0.0
+# TYPE cloudmq_storage_write_latency_le_1 gauge
+cloudmq_storage_write_latency_le_1{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_write_latency_le_1{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_write_latency_le_1{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_write_latency_le_1{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_msg_backlog gauge
+cloudmq_msg_backlog{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_msg_backlog{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_msg_backlog{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_msg_backlog{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_txn_tb_aborted_total gauge
+cloudmq_txn_tb_aborted_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_txn_tb_aborted_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_txn_tb_aborted_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_txn_tb_aborted_total{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_throughput_out gauge
+cloudmq_throughput_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0.0
+cloudmq_throughput_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0.0
+cloudmq_throughput_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0.0
+cloudmq_throughput_out{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0.0
+# TYPE cloudmq_broker_msg_backlog gauge
+cloudmq_broker_msg_backlog{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_subscription_filter_rejected_msg_count gauge
+cloudmq_subscription_filter_rejected_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_filter_rejected_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_filter_rejected_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_filter_rejected_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_subscription_filter_rescheduled_msg_count gauge
+cloudmq_subscription_filter_rescheduled_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_filter_rescheduled_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_filter_rescheduled_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_filter_rescheduled_msg_count{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_entry_size_le_overflow gauge
+cloudmq_entry_size_le_overflow{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_entry_size_le_overflow{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_entry_size_le_overflow{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_entry_size_le_overflow{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_write_latency_le_50 gauge
+cloudmq_storage_write_latency_le_50{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_write_latency_le_50{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_write_latency_le_50{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_write_latency_le_50{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_storage_write_latency_le_5 gauge
+cloudmq_storage_write_latency_le_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events"} 0
+cloudmq_storage_write_latency_le_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-2-partition-0"} 0
+cloudmq_storage_write_latency_le_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__metrics__cluster-a-cloudmqcluster-dcs-0-partition-1"} 0
+cloudmq_storage_write_latency_le_5{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event"} 0
+# TYPE cloudmq_subscription_back_log_no_delayed gauge
+cloudmq_subscription_back_log_no_delayed{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="reader-e4cf33aadc"} 0
+cloudmq_subscription_back_log_no_delayed{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/__monitor",topic="persistent://cloudmq/__monitor/__change_events",subscription="__compaction"} 0
+cloudmq_subscription_back_log_no_delayed{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="__compaction"} 0
+cloudmq_subscription_back_log_no_delayed{cluster="cluster-a-cloudmqcluster",namespace="cloudmq/system",topic="persistent://cloudmq/system/__mqtt_event",subscription="reader-ddd0dfacf0"} 0
+# TYPE cloudmq_ml_cache_entries gauge
+cloudmq_ml_cache_entries{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_ml_cache_evicted_entries_total gauge
+cloudmq_ml_cache_evicted_entries_total{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_ml_cache_evictions gauge
+cloudmq_ml_cache_evictions{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_ml_cache_hits_rate gauge
+cloudmq_ml_cache_hits_rate{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_ml_cache_hits_throughput gauge
+cloudmq_ml_cache_hits_throughput{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_ml_cache_inserted_entries_total gauge
+cloudmq_ml_cache_inserted_entries_total{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_ml_cache_misses_rate gauge
+cloudmq_ml_cache_misses_rate{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_ml_cache_misses_throughput gauge
+cloudmq_ml_cache_misses_throughput{cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE cloudmq_ml_cache_pool_active_allocations gauge
+cloudmq_ml_cache_pool_active_allocations{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_ml_cache_pool_active_allocations_huge gauge
+cloudmq_ml_cache_pool_active_allocations_huge{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_ml_cache_pool_active_allocations_normal gauge
+cloudmq_ml_cache_pool_active_allocations_normal{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_ml_cache_pool_active_allocations_small gauge
+cloudmq_ml_cache_pool_active_allocations_small{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_ml_cache_pool_allocated gauge
+cloudmq_ml_cache_pool_allocated{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_ml_cache_pool_used gauge
+cloudmq_ml_cache_pool_used{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_ml_cache_used_size gauge
+cloudmq_ml_cache_used_size{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE cloudmq_ml_count gauge
+cloudmq_ml_count{cluster="cluster-a-cloudmqcluster"} 4
+# TYPE cloudmq_ml_AddEntryBytesRate gauge
+cloudmq_ml_AddEntryBytesRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_AddEntryErrors gauge
+cloudmq_ml_AddEntryErrors{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_AddEntryLatencyBuckets gauge
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="0.0_0.5"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="0.5_1.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="1.0_5.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="10.0_20.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="100.0_200.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="20.0_50.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="200.0_1000.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="5.0_10.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="50.0_100.0"} 0.0
+# TYPE cloudmq_ml_AddEntryLatencyBuckets_OVERFLOW gauge
+cloudmq_ml_AddEntryLatencyBuckets_OVERFLOW{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_AddEntryMessagesRate gauge
+cloudmq_ml_AddEntryMessagesRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_AddEntrySucceed gauge
+cloudmq_ml_AddEntrySucceed{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_AddEntryWithReplicasBytesRate gauge
+cloudmq_ml_AddEntryWithReplicasBytesRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_EntrySizeBuckets gauge
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="0.0_128.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="1024.0_2048.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="102400.0_1048576.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="128.0_512.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="16384.0_102400.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="2048.0_4096.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="4096.0_16384.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="512.0_1024.0"} 0.0
+# TYPE cloudmq_ml_EntrySizeBuckets_OVERFLOW gauge
+cloudmq_ml_EntrySizeBuckets_OVERFLOW{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_LedgerAddEntryLatencyBuckets gauge
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="0.0_0.5"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="0.5_1.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="1.0_5.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="10.0_20.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="100.0_200.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="20.0_50.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="200.0_1000.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="5.0_10.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="50.0_100.0"} 0.0
+# TYPE cloudmq_ml_LedgerAddEntryLatencyBuckets_OVERFLOW gauge
+cloudmq_ml_LedgerAddEntryLatencyBuckets_OVERFLOW{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_LedgerSwitchLatencyBuckets gauge
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="0.0_0.5"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="0.5_1.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="1.0_5.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="10.0_20.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="100.0_200.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="20.0_50.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="200.0_1000.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="5.0_10.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent", quantile="50.0_100.0"} 0.0
+# TYPE cloudmq_ml_LedgerSwitchLatencyBuckets_OVERFLOW gauge
+cloudmq_ml_LedgerSwitchLatencyBuckets_OVERFLOW{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_MarkDeleteRate gauge
+cloudmq_ml_MarkDeleteRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_NumberOfMessagesInBacklog gauge
+cloudmq_ml_NumberOfMessagesInBacklog{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_ReadEntriesBytesRate gauge
+cloudmq_ml_ReadEntriesBytesRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_ReadEntriesErrors gauge
+cloudmq_ml_ReadEntriesErrors{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_ReadEntriesOpsCacheMissesRate gauge
+cloudmq_ml_ReadEntriesOpsCacheMissesRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_ReadEntriesRate gauge
+cloudmq_ml_ReadEntriesRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_ReadEntriesSucceeded gauge
+cloudmq_ml_ReadEntriesSucceeded{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+# TYPE cloudmq_ml_StoredMessagesSize gauge
+cloudmq_ml_StoredMessagesSize{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/system/persistent"} 0.0
+cloudmq_ml_AddEntryBytesRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_AddEntryErrors{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="0.0_0.5"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="0.5_1.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="1.0_5.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="10.0_20.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="100.0_200.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="20.0_50.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="200.0_1000.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="5.0_10.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="50.0_100.0"} 0.0
+cloudmq_ml_AddEntryLatencyBuckets_OVERFLOW{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_AddEntryMessagesRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_AddEntrySucceed{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_AddEntryWithReplicasBytesRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="0.0_128.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="1024.0_2048.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="102400.0_1048576.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="128.0_512.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="16384.0_102400.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="2048.0_4096.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="4096.0_16384.0"} 0.0
+cloudmq_ml_EntrySizeBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="512.0_1024.0"} 0.0
+cloudmq_ml_EntrySizeBuckets_OVERFLOW{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="0.0_0.5"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="0.5_1.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="1.0_5.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="10.0_20.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="100.0_200.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="20.0_50.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="200.0_1000.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="5.0_10.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="50.0_100.0"} 0.0
+cloudmq_ml_LedgerAddEntryLatencyBuckets_OVERFLOW{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="0.0_0.5"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="0.5_1.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="1.0_5.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="10.0_20.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="100.0_200.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="20.0_50.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="200.0_1000.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="5.0_10.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent", quantile="50.0_100.0"} 0.0
+cloudmq_ml_LedgerSwitchLatencyBuckets_OVERFLOW{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_MarkDeleteRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_NumberOfMessagesInBacklog{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_ReadEntriesBytesRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_ReadEntriesErrors{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_ReadEntriesOpsCacheMissesRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_ReadEntriesRate{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_ReadEntriesSucceeded{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 0.0
+cloudmq_ml_StoredMessagesSize{cluster="cluster-a-cloudmqcluster", namespace="cloudmq/__monitor/persistent"} 1606714.0
+# TYPE cloudmq_active_connections gauge
+cloudmq_active_connections{cluster="cluster-a-cloudmqcluster", broker="cluster-a-cloudmqcluster-broker-0.cluster-a-cloudmqcluster-broker.cloudmq-operator-system.svc.cluster.local", metric="broker_connection"} 3
+# TYPE cloudmq_connection_closed_total_count gauge
+cloudmq_connection_closed_total_count{cluster="cluster-a-cloudmqcluster", broker="cluster-a-cloudmqcluster-broker-0.cluster-a-cloudmqcluster-broker.cloudmq-operator-system.svc.cluster.local", metric="broker_connection"} 0
+# TYPE cloudmq_connection_create_fail_count gauge
+cloudmq_connection_create_fail_count{cluster="cluster-a-cloudmqcluster", broker="cluster-a-cloudmqcluster-broker-0.cluster-a-cloudmqcluster-broker.cloudmq-operator-system.svc.cluster.local", metric="broker_connection"} 0
+# TYPE cloudmq_connection_create_success_count gauge
+cloudmq_connection_create_success_count{cluster="cluster-a-cloudmqcluster", broker="cluster-a-cloudmqcluster-broker-0.cluster-a-cloudmqcluster-broker.cloudmq-operator-system.svc.cluster.local", metric="broker_connection"} 3
+# TYPE cloudmq_connection_created_total_count gauge
+cloudmq_connection_created_total_count{cluster="cluster-a-cloudmqcluster", broker="cluster-a-cloudmqcluster-broker-0.cluster-a-cloudmqcluster-broker.cloudmq-operator-system.svc.cluster.local", metric="broker_connection"} 3
+# TYPE cloudmq_lb_bandwidth_in_usage gauge
+cloudmq_lb_bandwidth_in_usage{cluster="cluster-a-cloudmqcluster", broker="cluster-a-cloudmqcluster-broker-0.cluster-a-cloudmqcluster-broker.cloudmq-operator-system.svc.cluster.local", metric="loadBalancing"} 2.7235546E-5
+# TYPE cloudmq_lb_bandwidth_out_usage gauge
+cloudmq_lb_bandwidth_out_usage{cluster="cluster-a-cloudmqcluster", broker="cluster-a-cloudmqcluster-broker-0.cluster-a-cloudmqcluster-broker.cloudmq-operator-system.svc.cluster.local", metric="loadBalancing"} 3.1118814E-4
+# TYPE cloudmq_lb_cpu_usage gauge
+cloudmq_lb_cpu_usage{cluster="cluster-a-cloudmqcluster", broker="cluster-a-cloudmqcluster-broker-0.cluster-a-cloudmqcluster-broker.cloudmq-operator-system.svc.cluster.local", metric="loadBalancing"} 1.3878202
+# TYPE cloudmq_lb_directMemory_usage gauge
+cloudmq_lb_directMemory_usage{cluster="cluster-a-cloudmqcluster", broker="cluster-a-cloudmqcluster-broker-0.cluster-a-cloudmqcluster-broker.cloudmq-operator-system.svc.cluster.local", metric="loadBalancing"} 1.5625
+# TYPE cloudmq_lb_memory_usage gauge
+cloudmq_lb_memory_usage{cluster="cluster-a-cloudmqcluster", broker="cluster-a-cloudmqcluster-broker-0.cluster-a-cloudmqcluster-broker.cloudmq-operator-system.svc.cluster.local", metric="loadBalancing"} 13.4765625
+# TYPE cloudmq_lb_unload_broker_total gauge
+cloudmq_lb_unload_broker_total{cluster="cluster-a-cloudmqcluster", metric="bundleUnloading"} 0
+# TYPE cloudmq_lb_unload_bundle_total gauge
+cloudmq_lb_unload_bundle_total{cluster="cluster-a-cloudmqcluster", metric="bundleUnloading"} 0
+# TYPE cloudmq_lb_bundles_split_total gauge
+cloudmq_lb_bundles_split_total{cluster="cluster-a-cloudmqcluster", metric="bundlesSplit"} 0
+# TYPE koc_server_REQUEST_QUEUE_SIZE gauge
+koc_server_REQUEST_QUEUE_SIZE{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE koc_server_ALIVE_CHANNEL_COUNT gauge
+koc_server_ALIVE_CHANNEL_COUNT{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE koc_server_BATCH_COUNT_PER_MEMORYRECORDS gauge
+koc_server_BATCH_COUNT_PER_MEMORYRECORDS{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE koc_server_ACTIVE_CHANNEL_COUNT gauge
+koc_server_ACTIVE_CHANNEL_COUNT{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE koc_server_KOC_EVENT_QUEUE_SIZE gauge
+koc_server_KOC_EVENT_QUEUE_SIZE{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE koc_server_RESPONSE_BLOCKED_TIMES counter
+koc_server_RESPONSE_BLOCKED_TIMES{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE koc_server_WAITING_FETCHES_TRIGGERED counter
+koc_server_WAITING_FETCHES_TRIGGERED{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE koc_server_NETWORK_TOTAL_BYTES_OUT counter
+koc_server_NETWORK_TOTAL_BYTES_OUT{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE koc_server_NETWORK_TOTAL_BYTES_IN counter
+koc_server_NETWORK_TOTAL_BYTES_IN{cluster="cluster-a-cloudmqcluster"} 0
+# TYPE koc_server_RESPONSE_BLOCKED_LATENCY summary
+koc_server_RESPONSE_BLOCKED_LATENCY{success="false",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY{success="false",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY{success="false",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY{success="false",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY{success="false",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY{success="false",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY{success="false",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY_count{success="false", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_RESPONSE_BLOCKED_LATENCY_sum{success="false", cluster="cluster-a-cloudmqcluster"} 0.0
+koc_server_RESPONSE_BLOCKED_LATENCY{success="true",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY{success="true",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY{success="true",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY{success="true",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY{success="true",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY{success="true",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY{success="true",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_RESPONSE_BLOCKED_LATENCY_count{success="true", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_RESPONSE_BLOCKED_LATENCY_sum{success="true", cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE koc_server_FETCH_DECODE summary
+koc_server_FETCH_DECODE{success="false",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE{success="false",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE{success="false",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE{success="false",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE{success="false",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE{success="false",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE{success="false",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE_count{success="false", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_FETCH_DECODE_sum{success="false", cluster="cluster-a-cloudmqcluster"} 0.0
+koc_server_FETCH_DECODE{success="true",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE{success="true",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE{success="true",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE{success="true",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE{success="true",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE{success="true",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE{success="true",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_FETCH_DECODE_count{success="true", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_FETCH_DECODE_sum{success="true", cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE koc_server_MESSAGE_READ summary
+koc_server_MESSAGE_READ{success="false",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ{success="false",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ{success="false",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ{success="false",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ{success="false",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ{success="false",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ{success="false",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ_count{success="false", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_MESSAGE_READ_sum{success="false", cluster="cluster-a-cloudmqcluster"} 0.0
+koc_server_MESSAGE_READ{success="true",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ{success="true",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ{success="true",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ{success="true",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ{success="true",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ{success="true",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ{success="true",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_READ_count{success="true", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_MESSAGE_READ_sum{success="true", cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE koc_server_PRODUCE_ENCODE summary
+koc_server_PRODUCE_ENCODE{success="false",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE{success="false",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE{success="false",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE{success="false",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE{success="false",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE{success="false",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE{success="false",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE_count{success="false", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_PRODUCE_ENCODE_sum{success="false", cluster="cluster-a-cloudmqcluster"} 0.0
+koc_server_PRODUCE_ENCODE{success="true",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE{success="true",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE{success="true",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE{success="true",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE{success="true",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE{success="true",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE{success="true",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PRODUCE_ENCODE_count{success="true", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_PRODUCE_ENCODE_sum{success="true", cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE koc_server_PENDING_TOPIC_LATENCY summary
+koc_server_PENDING_TOPIC_LATENCY{success="false",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY{success="false",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY{success="false",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY{success="false",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY{success="false",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY{success="false",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY{success="false",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY_count{success="false", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_PENDING_TOPIC_LATENCY_sum{success="false", cluster="cluster-a-cloudmqcluster"} 0.0
+koc_server_PENDING_TOPIC_LATENCY{success="true",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY{success="true",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY{success="true",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY{success="true",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY{success="true",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY{success="true",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY{success="true",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PENDING_TOPIC_LATENCY_count{success="true", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_PENDING_TOPIC_LATENCY_sum{success="true", cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE koc_server_PREPARE_METADATA summary
+koc_server_PREPARE_METADATA{success="false",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA{success="false",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA{success="false",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA{success="false",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA{success="false",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA{success="false",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA{success="false",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA_count{success="false", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_PREPARE_METADATA_sum{success="false", cluster="cluster-a-cloudmqcluster"} 0.0
+koc_server_PREPARE_METADATA{success="true",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA{success="true",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA{success="true",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA{success="true",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA{success="true",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA{success="true",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA{success="true",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_PREPARE_METADATA_count{success="true", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_PREPARE_METADATA_sum{success="true", cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE koc_server_MESSAGE_QUEUED_LATENCY summary
+koc_server_MESSAGE_QUEUED_LATENCY{success="false",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY{success="false",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY{success="false",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY{success="false",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY{success="false",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY{success="false",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY{success="false",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY_count{success="false", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_MESSAGE_QUEUED_LATENCY_sum{success="false", cluster="cluster-a-cloudmqcluster"} 0.0
+koc_server_MESSAGE_QUEUED_LATENCY{success="true",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY{success="true",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY{success="true",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY{success="true",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY{success="true",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY{success="true",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY{success="true",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_QUEUED_LATENCY_count{success="true", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_MESSAGE_QUEUED_LATENCY_sum{success="true", cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE koc_server_REQUEST_PARSE_LATENCY summary
+koc_server_REQUEST_PARSE_LATENCY{success="false",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY{success="false",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY{success="false",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY{success="false",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY{success="false",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY{success="false",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY{success="false",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY_count{success="false", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_REQUEST_PARSE_LATENCY_sum{success="false", cluster="cluster-a-cloudmqcluster"} 0.0
+koc_server_REQUEST_PARSE_LATENCY{success="true",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY{success="true",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY{success="true",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY{success="true",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY{success="true",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY{success="true",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY{success="true",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_REQUEST_PARSE_LATENCY_count{success="true", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_REQUEST_PARSE_LATENCY_sum{success="true", cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE koc_server_MESSAGE_PUBLISH summary
+koc_server_MESSAGE_PUBLISH{success="false",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH{success="false",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH{success="false",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH{success="false",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH{success="false",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH{success="false",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH{success="false",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH_count{success="false", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_MESSAGE_PUBLISH_sum{success="false", cluster="cluster-a-cloudmqcluster"} 0.0
+koc_server_MESSAGE_PUBLISH{success="true",quantile="0.5", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH{success="true",quantile="0.75", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH{success="true",quantile="0.95", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH{success="true",quantile="0.99", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH{success="true",quantile="0.999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH{success="true",quantile="0.9999", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH{success="true",quantile="1.0", cluster="cluster-a-cloudmqcluster"} NaN
+koc_server_MESSAGE_PUBLISH_count{success="true", cluster="cluster-a-cloudmqcluster"} 0
+koc_server_MESSAGE_PUBLISH_sum{success="true", cluster="cluster-a-cloudmqcluster"} 0.0
+# TYPE mop_active_client_count counter
+mop_active_client_count{cluster="cluster-a-cloudmqcluster"} 0 1775735201750
+# TYPE mop_maximum_client_count counter
+mop_maximum_client_count{cluster="cluster-a-cloudmqcluster"} 0 1775735201750
+# TYPE mop_received_bytes counter
+mop_received_bytes{cluster="cluster-a-cloudmqcluster"} 0 1775735201750
+# TYPE mop_received_count counter
+mop_received_count{cluster="cluster-a-cloudmqcluster"} 0 1775735201750
+# TYPE mop_send_bytes counter
+mop_send_bytes{cluster="cluster-a-cloudmqcluster"} 0 1775735201750
+# TYPE mop_send_count counter
+mop_send_count{cluster="cluster-a-cloudmqcluster"} 0 1775735201750
+# TYPE mop_sub_count counter
+mop_sub_count{cluster="cluster-a-cloudmqcluster"} 0 1775735201750
+# TYPE mop_total_client_count counter
+mop_total_client_count{cluster="cluster-a-cloudmqcluster"} 0 1775735201750

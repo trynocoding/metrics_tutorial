@@ -63,9 +63,14 @@ rate(metric[$__rate_interval])
 
 ---
 
-## 参考 Dashboard 文件
+## 参考资料与支撑文件
 
-- [broker.json](../dashboards/broker.json) — CloudMQ Broker 指标 Dashboard
-- [bookie.json](../dashboards/bookie.json) — CloudMQ Bookie（BookKeeper）指标 Dashboard
-- [broker.txt](../broker.txt) — Broker Prometheus 原始指标文本
-- [bookie.txt](../bookie.txt) — Bookie Prometheus 原始指标文本
+- **Grafana Dashboards**:
+  - [broker.json](./dashboards/broker.json) — CloudMQ Broker 指标 Dashboard
+  - [bookie.json](./dashboards/bookie.json) — CloudMQ Bookie（BookKeeper）指标 Dashboard
+- **Prometheus 原始指标数据**:
+  - [broker.txt](./raw_data/broker.txt) — Broker 原始指标文本快照
+  - [bookie.txt](./raw_data/bookie.txt) — Bookie 原始指标文本快照
+- **详细指标字典与文档**:
+  - [broker_metrics.md](./docs/broker_metrics.md) — Broker 指标全量中英文字典与解释
+  - [bookie_metrics.md](./docs/bookie_metrics.md) — Bookie 指标全量中英文字典与解释
