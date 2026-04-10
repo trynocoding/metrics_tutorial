@@ -573,6 +573,7 @@ import (
     "net/http"
 
     "github.com/prometheus/client_golang/prometheus"
+    "github.com/prometheus/client_golang/prometheus/collectors"
     "github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
@@ -581,11 +582,12 @@ var Registry = prometheus.NewRegistry()
 
 // 初始化所有指标
 func init() {
-    // 注册默认的 Go 运行时指标（对应 jvm_ 指标）
+    // 注意：在 client_golang v1.12+ 版本后，内置 Collector 迁移到了 collectors 子包
+    // 需要 import "github.com/prometheus/client_golang/prometheus/collectors"
     Registry.MustRegister(
-        prometheus.NewGoCollector(),          // Go 运行时指标
-        prometheus.NewProcessCollector(
-            prometheus.ProcessCollectorOpts{},
+        collectors.NewGoCollector(),          // Go 运行时指标
+        collectors.NewProcessCollector(
+            collectors.ProcessCollectorOpts{},
         ),
     )
 }

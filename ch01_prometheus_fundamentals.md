@@ -79,7 +79,7 @@ cloudmq_broker_lookup_answers_total{cluster="cluster-a-cloudmqcluster"} 6.0
 cloudmq_broker_lookup_answers_created{cluster="cluster-a-cloudmqcluster"} 1.775735054435E9
 ```
 
-> 注意：Prometheus 4.x 规范中 counter 会自动追加 `_total` 后缀（旧版不强制）。  
+> 注意：在较新的 OpenMetrics 规范（以及最新版客户端 SDK）中，Counter 类型指标通常会被推荐或自动追加 `_total` 后缀。  
 > `_created` 是 Counter 创建时间戳，用于支持 exemplar 等高级特性，一般忽略。
 
 **典型用途**：

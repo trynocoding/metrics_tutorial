@@ -205,10 +205,17 @@ thresholds: "80,90"
 ```
 
 **为什么用 Stacked Graph？**
-- `cloudmq_storage_write_latency_le_*` 是 CloudMQ 自定义的分桶 Gauge
-- 每个 Gauge 代表"该延迟桶内的消息数"，是可以相加的
-- 堆积图直观展示各延迟区间的占比分布（哪个延迟桶最多）
-- 📌 **规律**：分桶分布指标（多个 Gauge 代表桶）→ Stacked Graph
+- `cloudmq_storage_write_latency_le_*` 是 CloudMQ 自定义的分桶 Gauge。
+- 堆积图可以通过切片直观展示各延迟区间的占比分布。
+
+> ⚠️ **实战避坑指南：双重计数的陷阱！**  
+> 必须指出，虽然这个旧版 Dashboard 强行使用了 Stacked 堆积模式，但**这是一个反直觉的陷阱设计**！  
+> 在 Prometheus 规范中，带有 `le` (Less than or Equal) 前缀的分桶数据是**累积的 (Cumulative)**。这意味着 `le_10` 已经默默包含了 `le_5` 里的所有数据。如果在 Grafana 中直接用折线图叠加 (stack) 它们，会导致图表的绝对高度发生严重的数值膨胀（例如 `le_0_5` 会在上面每一个区域里被重复加盖）。  
+> 
+> **正确的解决思路**：
+> 1. **标准解法**：在 PromQL 中手动做减法计算**独立桶**（例如：`le_1` 减去 `le_0_5`），然后再进行堆积。
+> 2. **新版面板（推荐）**：使用 Grafana 新版的 `Heatmap` (热力图) 面板，它支持原生将 Cumulative Bucket 转换为常规 Bucket 来完美展示准确的直方分布。
+> 3. **妥协查看**：如果一定要看当前这种有瑕疵的叠图，请只看“色块的相对厚度”，不要去看 Y 轴汇总的总高度。
 
 **堆积图关键配置**：
 ```json

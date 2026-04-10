@@ -96,6 +96,9 @@ irate(bookkeeper_server_ADD_ENTRY_count{job=~"$job", instance=~"$instance", succ
 `irate()` 对**突刺**更敏感，适合检测短暂的流量峰值。  
 `[30s]` 只是查找最近两个点的时间范围，不是平均窗口。
 
+> ⚠️ **专家调参心法：时间窗口 [d] 到底该设多大？**  
+> 对于 `irate()` 而言，时间窗口（如 `[30s]`）必须 **绝对大于** 2 倍的 Prometheus 抓取间隔（Scrape interval）。如果系统是 30s 抓取一次数据，你写 `[30s]` 会导致图表经常断线闪烁（因为根本找不到两个点）。实战中我们更推荐使用 Grafana 内置的扩展变量 `$__rate_interval` 来替代硬编码，它会根据图表分辨率和采集频率自动算出最安全的时间窗口。
+
 **broker.json 中的对比**：
 ```promql
 # bookie.json panel "Entry Rate" 使用 irate，更灵敏
@@ -240,9 +243,10 @@ cloudmq_storage_write_latency_overflow → > 1000ms
 sum(cloudmq_storage_write_latency_le_5{cluster=~"$cluster"}) / 60.0
 ```
 
-> 💡 **开发者视角**：这种实现方式是将 Histogram 的桶「拍扁」为多个 Gauge，  
-> 优点是在不支持 Histogram 的场景下也能工作，缺点是无法使用 `histogram_quantile()`，  
-> 只能看桶分布。
+> 💡 **专家视角分析：为什么要除以 60？**  
+> 细心的读者会发现，普通的 Gauge 不应当像 Counter 一样去除以时间来算速率。这里之所以写 `/ 60.0`，底层原因在于 **CloudMQ 内部自己维护了一个“过去 1 分钟内的滚动计数累计值”**，并将其作为 Gauge 暴露了出来。  
+> 因此，Dashboard 里的 `/ 60.0` 本质上是将组件内部已经算好的「单分钟总量」，硬性摊薄估算为「每秒 QPS」。这虽然不符合严格的 Prometheus Native 哲学（Prometheus 更推崇让业务只吐出单调递增的 Counter，再用 `rate()` 计算），但在一些旧版或者需要兼容其他监控系统的组件中非常妥协和常见。  
+> 这种实现的缺点是无法使用 `histogram_quantile()` 计算精确的分位数，只能通过多个堆叠指标观察大概的分布。
 
 ---
 
