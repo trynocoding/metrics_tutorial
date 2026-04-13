@@ -1,0 +1,1219 @@
+# HELP connection_rejected_total connection_rejected
+# TYPE connection_rejected_total counter
+connection_rejected_total 0.0
+# HELP close_session_prep_time close_session_prep_time
+# TYPE close_session_prep_time summary
+close_session_prep_time{quantile="0.5",} 0.0
+close_session_prep_time{quantile="0.9",} 0.0
+close_session_prep_time{quantile="0.99",} 0.0
+close_session_prep_time_count 2.0
+close_session_prep_time_sum 0.0
+# HELP prep_processor_queue_size prep_processor_queue_size
+# TYPE prep_processor_queue_size summary
+prep_processor_queue_size{quantile="0.5",} 0.0
+prep_processor_queue_size_count 53.0
+prep_processor_queue_size_sum 0.0
+# HELP packets_sent packets_sent
+# TYPE packets_sent gauge
+packets_sent 56.0
+# HELP stale_sessions_expired_total stale_sessions_expired
+# TYPE stale_sessions_expired_total counter
+stale_sessions_expired_total 0.0
+# HELP node_deleted_watch_count node_deleted_watch_count
+# TYPE node_deleted_watch_count summary
+node_deleted_watch_count{quantile="0.5",} NaN
+node_deleted_watch_count_count 0.0
+node_deleted_watch_count_sum 0.0
+# HELP connection_revalidate_count_total connection_revalidate_count
+# TYPE connection_revalidate_count_total counter
+connection_revalidate_count_total 3.0
+# HELP outstanding_changes_queued_total outstanding_changes_queued
+# TYPE outstanding_changes_queued_total counter
+outstanding_changes_queued_total 1.0
+# HELP outstanding_requests outstanding_requests
+# TYPE outstanding_requests gauge
+outstanding_requests 0.0
+# HELP quota_bytes_usage_per_namespace quota_bytes_usage_per_namespace
+# TYPE quota_bytes_usage_per_namespace gauge
+# HELP last_client_response_size last_client_response_size
+# TYPE last_client_response_size gauge
+last_client_response_size 518.0
+# HELP proposal_ack_creation_latency proposal_ack_creation_latency
+# TYPE proposal_ack_creation_latency summary
+proposal_ack_creation_latency{quantile="0.5",} 6761.0
+proposal_ack_creation_latency{quantile="0.9",} 7337.0
+proposal_ack_creation_latency{quantile="0.99",} 7442.0
+proposal_ack_creation_latency_count 27.0
+proposal_ack_creation_latency_sum 98192.0
+# HELP large_requests_rejected_total large_requests_rejected
+# TYPE large_requests_rejected_total counter
+large_requests_rejected_total 0.0
+# HELP max_client_response_size max_client_response_size
+# TYPE max_client_response_size gauge
+max_client_response_size 25270.0
+# HELP snap_count_total snap_count
+# TYPE snap_count_total counter
+snap_count_total 0.0
+# HELP jvm_pause_time_ms jvm_pause_time_ms
+# TYPE jvm_pause_time_ms summary
+jvm_pause_time_ms{quantile="0.5",} NaN
+jvm_pause_time_ms{quantile="0.9",} NaN
+jvm_pause_time_ms{quantile="0.99",} NaN
+jvm_pause_time_ms_count 0.0
+jvm_pause_time_ms_sum 0.0
+# HELP server_write_committed_time_ms server_write_committed_time_ms
+# TYPE server_write_committed_time_ms summary
+server_write_committed_time_ms{quantile="0.5",} 1.0
+server_write_committed_time_ms{quantile="0.9",} 2.0
+server_write_committed_time_ms{quantile="0.99",} 5.0
+server_write_committed_time_ms_count 15.0
+server_write_committed_time_ms_sum 24.0
+# HELP dead_watchers_cleaner_latency dead_watchers_cleaner_latency
+# TYPE dead_watchers_cleaner_latency summary
+dead_watchers_cleaner_latency{quantile="0.5",} NaN
+dead_watchers_cleaner_latency{quantile="0.9",} NaN
+dead_watchers_cleaner_latency{quantile="0.99",} NaN
+dead_watchers_cleaner_latency_count 0.0
+dead_watchers_cleaner_latency_sum 0.0
+# HELP commit_commit_proc_req_queued commit_commit_proc_req_queued
+# TYPE commit_commit_proc_req_queued summary
+commit_commit_proc_req_queued{quantile="0.5",} 0.0
+commit_commit_proc_req_queued_count 78.0
+commit_commit_proc_req_queued_sum 110.0
+# HELP proposal_process_time proposal_process_time
+# TYPE proposal_process_time summary
+proposal_process_time{quantile="0.5",} 0.0
+proposal_process_time_count 52.0
+proposal_process_time_sum 4.0
+# HELP proposal_latency proposal_latency
+# TYPE proposal_latency summary
+proposal_latency{quantile="0.5",} 1.0
+proposal_latency{quantile="0.9",} 1.0
+proposal_latency{quantile="0.99",} 1.0
+proposal_latency_count 1.0
+proposal_latency_sum 1.0
+# HELP concurrent_request_processing_in_commit_processor concurrent_request_processing_in_commit_processor
+# TYPE concurrent_request_processing_in_commit_processor summary
+concurrent_request_processing_in_commit_processor{quantile="0.5",} NaN
+concurrent_request_processing_in_commit_processor_count 0.0
+concurrent_request_processing_in_commit_processor_sum 0.0
+# HELP write_commit_proc_issued write_commit_proc_issued
+# TYPE write_commit_proc_issued summary
+write_commit_proc_issued{quantile="0.5",} 1.0
+write_commit_proc_issued_count 27.0
+write_commit_proc_issued_sum 27.0
+# HELP commit_propagation_latency commit_propagation_latency
+# TYPE commit_propagation_latency summary
+commit_propagation_latency{quantile="0.5",} 6935.0
+commit_propagation_latency{quantile="0.9",} 7383.0
+commit_propagation_latency{quantile="0.99",} 7440.0
+commit_propagation_latency_count 15.0
+commit_propagation_latency_sum 98152.0
+# HELP proposal_count_total proposal_count
+# TYPE proposal_count_total counter
+proposal_count_total 12.0
+# HELP max_latency max_latency
+# TYPE max_latency gauge
+max_latency 7.0
+# HELP learner_handler_qp_time_ms learner_handler_qp_time_ms
+# TYPE learner_handler_qp_time_ms summary
+learner_handler_qp_time_ms{key="1",quantile="0.5",} 1.0
+learner_handler_qp_time_ms{key="1",quantile="0.9",} 1.0
+learner_handler_qp_time_ms{key="1",quantile="0.99",} 1.0
+learner_handler_qp_time_ms_count{key="1",} 1.0
+learner_handler_qp_time_ms_sum{key="1",} 1.0
+learner_handler_qp_time_ms{key="2",quantile="0.5",} 23.0
+learner_handler_qp_time_ms{key="2",quantile="0.9",} 23.0
+learner_handler_qp_time_ms{key="2",quantile="0.99",} 23.0
+learner_handler_qp_time_ms_count{key="2",} 1.0
+learner_handler_qp_time_ms_sum{key="2",} 23.0
+# HELP synced_non_voting_followers synced_non_voting_followers
+# TYPE synced_non_voting_followers gauge
+synced_non_voting_followers 0.0
+# HELP digest_mismatches_count_total digest_mismatches_count
+# TYPE digest_mismatches_count_total counter
+digest_mismatches_count_total 0.0
+# HELP watch_bytes_total watch_bytes
+# TYPE watch_bytes_total counter
+watch_bytes_total 161.0
+# HELP open_file_descriptor_count open_file_descriptor_count
+# TYPE open_file_descriptor_count gauge
+open_file_descriptor_count 362.0
+# HELP write_batch_time_in_commit_processor write_batch_time_in_commit_processor
+# TYPE write_batch_time_in_commit_processor summary
+write_batch_time_in_commit_processor{quantile="0.5",} 0.0
+write_batch_time_in_commit_processor_count 27.0
+write_batch_time_in_commit_processor_sum 13.0
+# HELP node_created_watch_count node_created_watch_count
+# TYPE node_created_watch_count summary
+node_created_watch_count{quantile="0.5",} NaN
+node_created_watch_count_count 0.0
+node_created_watch_count_sum 0.0
+# HELP non_mtls_local_conn_count non_mtls_local_conn_count
+# TYPE non_mtls_local_conn_count gauge
+non_mtls_local_conn_count 0.0
+# HELP updatelatency updatelatency
+# TYPE updatelatency summary
+updatelatency{quantile="0.5",} 2.0
+updatelatency{quantile="0.9",} 7.0
+updatelatency{quantile="0.99",} 7.0
+updatelatency_count 6.0
+updatelatency_sum 21.0
+# HELP synced_followers synced_followers
+# TYPE synced_followers gauge
+synced_followers 2.0
+# HELP local_write_committed_time_ms local_write_committed_time_ms
+# TYPE local_write_committed_time_ms summary
+local_write_committed_time_ms{quantile="0.5",} 0.0
+local_write_committed_time_ms{quantile="0.9",} 0.0
+local_write_committed_time_ms{quantile="0.99",} 0.0
+local_write_committed_time_ms_count 12.0
+local_write_committed_time_ms_sum 0.0
+# HELP avg_latency avg_latency
+# TYPE avg_latency gauge
+avg_latency 0.9318
+# HELP request_commit_queued_total request_commit_queued
+# TYPE request_commit_queued_total counter
+request_commit_queued_total 27.0
+# HELP read_per_namespace read_per_namespace
+# TYPE read_per_namespace summary
+read_per_namespace{key="managed-ledgers",quantile="0.5",} 167.0
+read_per_namespace_count{key="managed-ledgers",} 3.0
+read_per_namespace_sum{key="managed-ledgers",} 1947.0
+read_per_namespace{key="schemas",quantile="0.5",} 224.0
+read_per_namespace_count{key="schemas",} 1.0
+read_per_namespace_sum{key="schemas",} 224.0
+read_per_namespace{key="ledgers",quantile="0.5",} 502.0
+read_per_namespace_count{key="ledgers",} 1.0
+read_per_namespace_sum{key="ledgers",} 502.0
+read_per_namespace{key="admin",quantile="0.5",} 101.0
+read_per_namespace_count{key="admin",} 4.0
+read_per_namespace_sum{key="admin",} 594.0
+read_per_namespace{key="namespace",quantile="0.5",} 471.0
+read_per_namespace_count{key="namespace",} 9.0
+read_per_namespace_sum{key="namespace",} 4456.0
+read_per_namespace{key="loadbalance",quantile="0.5",} 2925.0
+read_per_namespace_count{key="loadbalance",} 27.0
+read_per_namespace_sum{key="loadbalance",} 58572.0
+# HELP node_changed_watch_count node_changed_watch_count
+# TYPE node_changed_watch_count summary
+node_changed_watch_count{quantile="0.5",} 1.0
+node_changed_watch_count_count 1.0
+node_changed_watch_count_sum 1.0
+# HELP quit_leading_due_to_disloyal_voter_total quit_leading_due_to_disloyal_voter
+# TYPE quit_leading_due_to_disloyal_voter_total counter
+quit_leading_due_to_disloyal_voter_total 0.0
+# HELP sync_process_time sync_process_time
+# TYPE sync_process_time summary
+sync_process_time{quantile="0.5",} 0.0
+sync_process_time_count 27.0
+sync_process_time_sum 3.0
+# HELP propagation_latency propagation_latency
+# TYPE propagation_latency summary
+propagation_latency{quantile="0.5",} 6762.0
+propagation_latency{quantile="0.9",} 7337.0
+propagation_latency{quantile="0.99",} 7441.0
+propagation_latency_count 27.0
+propagation_latency_sum 98215.0
+# HELP startup_txns_loaded startup_txns_loaded
+# TYPE startup_txns_loaded summary
+startup_txns_loaded{quantile="0.5",} 4707.0
+startup_txns_loaded_count 1.0
+startup_txns_loaded_sum 4707.0
+# HELP om_proposal_process_time_ms om_proposal_process_time_ms
+# TYPE om_proposal_process_time_ms summary
+om_proposal_process_time_ms{quantile="0.5",} NaN
+om_proposal_process_time_ms{quantile="0.9",} NaN
+om_proposal_process_time_ms{quantile="0.99",} NaN
+om_proposal_process_time_ms_count 0.0
+om_proposal_process_time_ms_sum 0.0
+# HELP request_throttle_wait_count_total request_throttle_wait_count
+# TYPE request_throttle_wait_count_total counter
+request_throttle_wait_count_total 0.0
+# HELP response_packet_cache_hits_total response_packet_cache_hits
+# TYPE response_packet_cache_hits_total counter
+response_packet_cache_hits_total 7.0
+# HELP sessionless_connections_expired_total sessionless_connections_expired
+# TYPE sessionless_connections_expired_total counter
+sessionless_connections_expired_total 0.0
+# HELP revalidate_count_total revalidate_count
+# TYPE revalidate_count_total counter
+revalidate_count_total 1.0
+# HELP cnxn_closed_without_dcs_server_running_total cnxn_closed_without_dcs_server_running
+# TYPE cnxn_closed_without_dcs_server_running_total counter
+cnxn_closed_without_dcs_server_running_total 0.0
+# HELP non_mtls_remote_conn_count non_mtls_remote_conn_count
+# TYPE non_mtls_remote_conn_count gauge
+non_mtls_remote_conn_count 0.0
+# HELP last_proposal_size last_proposal_size
+# TYPE last_proposal_size gauge
+last_proposal_size 48.0
+# HELP jvm_threads_current Current thread count of a JVM
+# TYPE jvm_threads_current gauge
+jvm_threads_current 87.0
+# HELP jvm_threads_daemon Daemon thread count of a JVM
+# TYPE jvm_threads_daemon gauge
+jvm_threads_daemon 57.0
+# HELP jvm_threads_peak Peak thread count of a JVM
+# TYPE jvm_threads_peak gauge
+jvm_threads_peak 88.0
+# HELP jvm_threads_started_total Started thread count of a JVM
+# TYPE jvm_threads_started_total counter
+jvm_threads_started_total 111.0
+# HELP jvm_threads_deadlocked Cycles of JVM-threads that are in deadlock waiting to acquire object monitors or ownable synchronizers
+# TYPE jvm_threads_deadlocked gauge
+jvm_threads_deadlocked 0.0
+# HELP jvm_threads_deadlocked_monitor Cycles of JVM-threads that are in deadlock waiting to acquire object monitors
+# TYPE jvm_threads_deadlocked_monitor gauge
+jvm_threads_deadlocked_monitor 0.0
+# HELP jvm_threads_state Current count of threads by state
+# TYPE jvm_threads_state gauge
+jvm_threads_state{state="NEW",} 0.0
+jvm_threads_state{state="TERMINATED",} 0.0
+jvm_threads_state{state="RUNNABLE",} 22.0
+jvm_threads_state{state="BLOCKED",} 0.0
+jvm_threads_state{state="WAITING",} 40.0
+jvm_threads_state{state="TIMED_WAITING",} 25.0
+jvm_threads_state{state="UNKNOWN",} 0.0
+# HELP jvm_gc_collection_seconds Time spent in a given JVM garbage collector in seconds.
+# TYPE jvm_gc_collection_seconds summary
+jvm_gc_collection_seconds_count{gc="ZGC Cycles",} 3.0
+jvm_gc_collection_seconds_sum{gc="ZGC Cycles",} 0.363
+jvm_gc_collection_seconds_count{gc="ZGC Pauses",} 9.0
+jvm_gc_collection_seconds_sum{gc="ZGC Pauses",} 0.0
+# HELP quota_count_usage_per_namespace quota_count_usage_per_namespace
+# TYPE quota_count_usage_per_namespace gauge
+# HELP netty_queued_buffer_capacity netty_queued_buffer_capacity
+# TYPE netty_queued_buffer_capacity summary
+netty_queued_buffer_capacity{quantile="0.5",} NaN
+netty_queued_buffer_capacity_count 0.0
+netty_queued_buffer_capacity_sum 0.0
+# HELP dbinittime dbinittime
+# TYPE dbinittime summary
+dbinittime{quantile="0.5",} 620.0
+dbinittime_count 1.0
+dbinittime_sum 620.0
+# HELP dead_watchers_queued_total dead_watchers_queued
+# TYPE dead_watchers_queued_total counter
+dead_watchers_queued_total 0.0
+# HELP min_proposal_size min_proposal_size
+# TYPE min_proposal_size gauge
+min_proposal_size 48.0
+# HELP snapshottime snapshottime
+# TYPE snapshottime summary
+snapshottime{quantile="0.5",} 4.0
+snapshottime_count 2.0
+snapshottime_sum 9.0
+# HELP jvm_classes_currently_loaded The number of classes that are currently loaded in the JVM
+# TYPE jvm_classes_currently_loaded gauge
+jvm_classes_currently_loaded 9953.0
+# HELP jvm_classes_loaded_total The total number of classes that have been loaded since the JVM has started execution
+# TYPE jvm_classes_loaded_total counter
+jvm_classes_loaded_total 9953.0
+# HELP jvm_classes_unloaded_total The total number of classes that have been unloaded since the JVM has started execution
+# TYPE jvm_classes_unloaded_total counter
+jvm_classes_unloaded_total 0.0
+# HELP diff_count_total diff_count
+# TYPE diff_count_total counter
+diff_count_total 2.0
+# HELP quota_exceeded_error_per_namespace_total quota_exceeded_error_per_namespace
+# TYPE quota_exceeded_error_per_namespace_total counter
+# HELP ensemble_auth_success_total ensemble_auth_success
+# TYPE ensemble_auth_success_total counter
+ensemble_auth_success_total 0.0
+# HELP num_alive_connections num_alive_connections
+# TYPE num_alive_connections gauge
+num_alive_connections 6.0
+# HELP node_children_watch_count node_children_watch_count
+# TYPE node_children_watch_count summary
+node_children_watch_count{quantile="0.5",} NaN
+node_children_watch_count_count 0.0
+node_children_watch_count_sum 0.0
+# HELP socket_closing_time socket_closing_time
+# TYPE socket_closing_time summary
+socket_closing_time{quantile="0.5",} 0.0
+socket_closing_time_count 1.0
+socket_closing_time_sum 0.0
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 9.63
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.77605924478E9
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 362.0
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1048576.0
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 4.0435728384E10
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 1.010950144E9
+# HELP sync_processor_queue_flush_time_ms sync_processor_queue_flush_time_ms
+# TYPE sync_processor_queue_flush_time_ms summary
+sync_processor_queue_flush_time_ms{quantile="0.5",} 0.0
+sync_processor_queue_flush_time_ms{quantile="0.9",} 1.0
+sync_processor_queue_flush_time_ms{quantile="0.99",} 1.0
+sync_processor_queue_flush_time_ms_count 14.0
+sync_processor_queue_flush_time_ms_sum 6.0
+# HELP ack_latency ack_latency
+# TYPE ack_latency summary
+# HELP auth_failed_count auth_failed_count
+# TYPE auth_failed_count gauge
+auth_failed_count 0.0
+# HELP request_throttle_queue_time_ms request_throttle_queue_time_ms
+# TYPE request_throttle_queue_time_ms summary
+request_throttle_queue_time_ms{quantile="0.5",} 0.0
+request_throttle_queue_time_ms{quantile="0.9",} 0.0
+request_throttle_queue_time_ms{quantile="0.99",} 1.0
+request_throttle_queue_time_ms_count 44.0
+request_throttle_queue_time_ms_sum 1.0
+# HELP connection_drop_probability connection_drop_probability
+# TYPE connection_drop_probability gauge
+connection_drop_probability 0.0
+# HELP jvm_buffer_pool_used_bytes Used bytes of a given JVM buffer pool.
+# TYPE jvm_buffer_pool_used_bytes gauge
+jvm_buffer_pool_used_bytes{pool="mapped",} 0.0
+jvm_buffer_pool_used_bytes{pool="direct",} 360027.0
+jvm_buffer_pool_used_bytes{pool="mapped - 'non-volatile memory'",} 0.0
+# HELP jvm_buffer_pool_capacity_bytes Bytes capacity of a given JVM buffer pool.
+# TYPE jvm_buffer_pool_capacity_bytes gauge
+jvm_buffer_pool_capacity_bytes{pool="mapped",} 0.0
+jvm_buffer_pool_capacity_bytes{pool="direct",} 360026.0
+jvm_buffer_pool_capacity_bytes{pool="mapped - 'non-volatile memory'",} 0.0
+# HELP jvm_buffer_pool_used_buffers Used buffers of a given JVM buffer pool.
+# TYPE jvm_buffer_pool_used_buffers gauge
+jvm_buffer_pool_used_buffers{pool="mapped",} 0.0
+jvm_buffer_pool_used_buffers{pool="direct",} 34.0
+jvm_buffer_pool_used_buffers{pool="mapped - 'non-volatile memory'",} 0.0
+# HELP jvm_memory_objects_pending_finalization The number of objects waiting in the finalizer queue.
+# TYPE jvm_memory_objects_pending_finalization gauge
+jvm_memory_objects_pending_finalization 0.0
+# HELP jvm_memory_bytes_used Used bytes of a given JVM memory area.
+# TYPE jvm_memory_bytes_used gauge
+jvm_memory_bytes_used{area="heap",} 1.4680064E8
+jvm_memory_bytes_used{area="nonheap",} 6.9986208E7
+# HELP jvm_memory_bytes_committed Committed (bytes) of a given JVM memory area.
+# TYPE jvm_memory_bytes_committed gauge
+jvm_memory_bytes_committed{area="heap",} 2.70532608E8
+jvm_memory_bytes_committed{area="nonheap",} 7.2155136E7
+# HELP jvm_memory_bytes_max Max (bytes) of a given JVM memory area.
+# TYPE jvm_memory_bytes_max gauge
+jvm_memory_bytes_max{area="heap",} 5.38968064E8
+jvm_memory_bytes_max{area="nonheap",} -1.0
+# HELP jvm_memory_bytes_init Initial bytes of a given JVM memory area.
+# TYPE jvm_memory_bytes_init gauge
+jvm_memory_bytes_init{area="heap",} 2.70532608E8
+jvm_memory_bytes_init{area="nonheap",} 7667712.0
+# HELP jvm_memory_pool_bytes_used Used bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_bytes_used gauge
+jvm_memory_pool_bytes_used{pool="CodeHeap 'non-nmethods'",} 1655296.0
+jvm_memory_pool_bytes_used{pool="Metaspace",} 5.1901032E7
+jvm_memory_pool_bytes_used{pool="ZHeap",} 1.4680064E8
+jvm_memory_pool_bytes_used{pool="CodeHeap 'profiled nmethods'",} 8281856.0
+jvm_memory_pool_bytes_used{pool="Compressed Class Space",} 6073400.0
+jvm_memory_pool_bytes_used{pool="CodeHeap 'non-profiled nmethods'",} 2074624.0
+# HELP jvm_memory_pool_bytes_committed Committed bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_bytes_committed gauge
+jvm_memory_pool_bytes_committed{pool="CodeHeap 'non-nmethods'",} 2555904.0
+jvm_memory_pool_bytes_committed{pool="Metaspace",} 5.24288E7
+jvm_memory_pool_bytes_committed{pool="ZHeap",} 2.70532608E8
+jvm_memory_pool_bytes_committed{pool="CodeHeap 'profiled nmethods'",} 8323072.0
+jvm_memory_pool_bytes_committed{pool="Compressed Class Space",} 6291456.0
+jvm_memory_pool_bytes_committed{pool="CodeHeap 'non-profiled nmethods'",} 2555904.0
+# HELP jvm_memory_pool_bytes_max Max bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_bytes_max gauge
+jvm_memory_pool_bytes_max{pool="CodeHeap 'non-nmethods'",} 5828608.0
+jvm_memory_pool_bytes_max{pool="Metaspace",} -1.0
+jvm_memory_pool_bytes_max{pool="ZHeap",} 5.38968064E8
+jvm_memory_pool_bytes_max{pool="CodeHeap 'profiled nmethods'",} 1.22912768E8
+jvm_memory_pool_bytes_max{pool="Compressed Class Space",} 1.073741824E9
+jvm_memory_pool_bytes_max{pool="CodeHeap 'non-profiled nmethods'",} 1.22916864E8
+# HELP jvm_memory_pool_bytes_init Initial bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_bytes_init gauge
+jvm_memory_pool_bytes_init{pool="CodeHeap 'non-nmethods'",} 2555904.0
+jvm_memory_pool_bytes_init{pool="Metaspace",} 0.0
+jvm_memory_pool_bytes_init{pool="ZHeap",} 2.70532608E8
+jvm_memory_pool_bytes_init{pool="CodeHeap 'profiled nmethods'",} 2555904.0
+jvm_memory_pool_bytes_init{pool="Compressed Class Space",} 0.0
+jvm_memory_pool_bytes_init{pool="CodeHeap 'non-profiled nmethods'",} 2555904.0
+# HELP jvm_memory_pool_collection_used_bytes Used bytes after last collection of a given JVM memory pool.
+# TYPE jvm_memory_pool_collection_used_bytes gauge
+jvm_memory_pool_collection_used_bytes{pool="ZHeap",} 5.8720256E7
+# HELP jvm_memory_pool_collection_committed_bytes Committed after last collection bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_collection_committed_bytes gauge
+jvm_memory_pool_collection_committed_bytes{pool="ZHeap",} 2.70532608E8
+# HELP jvm_memory_pool_collection_max_bytes Max bytes after last collection of a given JVM memory pool.
+# TYPE jvm_memory_pool_collection_max_bytes gauge
+jvm_memory_pool_collection_max_bytes{pool="ZHeap",} 5.38968064E8
+# HELP jvm_memory_pool_collection_init_bytes Initial after last collection bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_collection_init_bytes gauge
+jvm_memory_pool_collection_init_bytes{pool="ZHeap",} 2.70532608E8
+# HELP bytes_received_count_total bytes_received_count
+# TYPE bytes_received_count_total counter
+bytes_received_count_total 9048.0
+# HELP outstanding_changes_removed_total outstanding_changes_removed
+# TYPE outstanding_changes_removed_total counter
+outstanding_changes_removed_total 1.0
+# HELP sync_processor_request_queued_total sync_processor_request_queued
+# TYPE sync_processor_request_queued_total counter
+sync_processor_request_queued_total 27.0
+# HELP unsuccessful_handshake_total unsuccessful_handshake
+# TYPE unsuccessful_handshake_total counter
+unsuccessful_handshake_total 0.0
+# HELP learner_proposal_received_count_total learner_proposal_received_count
+# TYPE learner_proposal_received_count_total counter
+learner_proposal_received_count_total 1.0
+# HELP stale_requests_dropped_total stale_requests_dropped
+# TYPE stale_requests_dropped_total counter
+stale_requests_dropped_total 0.0
+# HELP observer_sync_time observer_sync_time
+# TYPE observer_sync_time summary
+observer_sync_time{quantile="0.5",} NaN
+observer_sync_time_count 0.0
+observer_sync_time_sum 0.0
+# HELP read_commit_proc_req_queued read_commit_proc_req_queued
+# TYPE read_commit_proc_req_queued summary
+read_commit_proc_req_queued{quantile="0.5",} 0.0
+read_commit_proc_req_queued_count 78.0
+read_commit_proc_req_queued_sum 38.0
+# HELP skip_learner_request_to_next_processor_count_total skip_learner_request_to_next_processor_count
+# TYPE skip_learner_request_to_next_processor_count_total counter
+skip_learner_request_to_next_processor_count_total 0.0
+# HELP response_packet_cache_misses_total response_packet_cache_misses
+# TYPE response_packet_cache_misses_total counter
+response_packet_cache_misses_total 3.0
+# HELP follower_sync_time follower_sync_time
+# TYPE follower_sync_time summary
+follower_sync_time{quantile="0.5",} 87.0
+follower_sync_time_count 1.0
+follower_sync_time_sum 87.0
+# HELP quota_bytes_limit_per_namespace quota_bytes_limit_per_namespace
+# TYPE quota_bytes_limit_per_namespace gauge
+# HELP write_commitproc_time_ms write_commitproc_time_ms
+# TYPE write_commitproc_time_ms summary
+write_commitproc_time_ms{quantile="0.5",} 1.0
+write_commitproc_time_ms{quantile="0.9",} 3.0
+write_commitproc_time_ms{quantile="0.99",} 4.0
+write_commitproc_time_ms_count 12.0
+write_commitproc_time_ms_sum 17.0
+# HELP write_per_namespace write_per_namespace
+# TYPE write_per_namespace summary
+write_per_namespace{key="managed-ledgers",quantile="0.5",} 155.0
+write_per_namespace_count{key="managed-ledgers",} 281.0
+write_per_namespace_sum{key="managed-ledgers",} 42833.0
+write_per_namespace{key="dcs",quantile="0.5",} 425.0
+write_per_namespace_count{key="dcs",} 2.0
+write_per_namespace_sum{key="dcs",} 850.0
+write_per_namespace{key="koc_latest_producer_id_block",quantile="0.5",} 91.0
+write_per_namespace_count{key="koc_latest_producer_id_block",} 12.0
+write_per_namespace_sum{key="koc_latest_producer_id_block",} 1092.0
+write_per_namespace{key="schemas",quantile="0.5",} 126.0
+write_per_namespace_count{key="schemas",} 2.0
+write_per_namespace_sum{key="schemas",} 256.0
+write_per_namespace{key="ledgers",quantile="0.5",} 53.0
+write_per_namespace_count{key="ledgers",} 2289.0
+write_per_namespace_sum{key="ledgers",} 376422.0
+write_per_namespace{key="counters",quantile="0.5",} 35.0
+write_per_namespace_count{key="counters",} 29.0
+write_per_namespace_sum{key="counters",} 1015.0
+write_per_namespace{key="namespace",quantile="0.5",} 156.0
+write_per_namespace_count{key="namespace",} 279.0
+write_per_namespace_sum{key="namespace",} 60345.0
+write_per_namespace{key="loadbalance",quantile="0.5",} 2355.0
+write_per_namespace_count{key="loadbalance",} 600.0
+write_per_namespace_sum{key="loadbalance",} 982959.0
+# HELP unavailable_time unavailable_time
+# TYPE unavailable_time summary
+unavailable_time{quantile="0.5",} 186.0
+unavailable_time_count 2.0
+unavailable_time_sum 26610.0
+# HELP leader_unavailable_time leader_unavailable_time
+# TYPE leader_unavailable_time summary
+leader_unavailable_time{quantile="0.5",} 26424.0
+leader_unavailable_time_count 1.0
+leader_unavailable_time_sum 26424.0
+# HELP learner_request_processor_queue_size learner_request_processor_queue_size
+# TYPE learner_request_processor_queue_size summary
+learner_request_processor_queue_size{quantile="0.5",} 0.0
+learner_request_processor_queue_size_count 1.0
+learner_request_processor_queue_size_sum 0.0
+# HELP requests_not_forwarded_to_commit_processor_total requests_not_forwarded_to_commit_processor
+# TYPE requests_not_forwarded_to_commit_processor_total counter
+requests_not_forwarded_to_commit_processor_total 0.0
+# HELP log4j2_appender_total Log4j2 log statements at various log levels
+# TYPE log4j2_appender_total counter
+log4j2_appender_total{level="debug",} 0.0
+log4j2_appender_total{level="warn",} 31.0
+log4j2_appender_total{level="trace",} 0.0
+log4j2_appender_total{level="error",} 0.0
+log4j2_appender_total{level="fatal",} 0.0
+log4j2_appender_total{level="info",} 346.0
+# HELP sync_processor_batch_size sync_processor_batch_size
+# TYPE sync_processor_batch_size summary
+sync_processor_batch_size{quantile="0.5",} 1.0
+sync_processor_batch_size_count 14.0
+sync_processor_batch_size_sum 27.0
+# HELP learners learners
+# TYPE learners gauge
+learners 2.0
+# HELP watch_count watch_count
+# TYPE watch_count gauge
+watch_count 10.0
+# HELP jvm_memory_pool_allocated_bytes_total Total bytes allocated in a given JVM memory pool. Only updated after GC, not continuously.
+# TYPE jvm_memory_pool_allocated_bytes_total counter
+jvm_memory_pool_allocated_bytes_total{pool="CodeHeap 'profiled nmethods'",} 1.27456E7
+jvm_memory_pool_allocated_bytes_total{pool="ZHeap",} 2.76824064E8
+jvm_memory_pool_allocated_bytes_total{pool="CodeHeap 'non-profiled nmethods'",} 2718464.0
+jvm_memory_pool_allocated_bytes_total{pool="Compressed Class Space",} 5991936.0
+jvm_memory_pool_allocated_bytes_total{pool="Metaspace",} 5.4189888E7
+jvm_memory_pool_allocated_bytes_total{pool="CodeHeap 'non-nmethods'",} 2926464.0
+# HELP reads_issued_from_session_queue reads_issued_from_session_queue
+# TYPE reads_issued_from_session_queue summary
+reads_issued_from_session_queue{quantile="0.5",} 0.0
+reads_issued_from_session_queue_count 27.0
+reads_issued_from_session_queue_sum 0.0
+# HELP inflight_snap_count inflight_snap_count
+# TYPE inflight_snap_count summary
+inflight_snap_count{quantile="0.5",} NaN
+inflight_snap_count_count 0.0
+inflight_snap_count_sum 0.0
+# HELP stale_requests_total stale_requests
+# TYPE stale_requests_total counter
+stale_requests_total 0.0
+# HELP om_commit_process_time_ms om_commit_process_time_ms
+# TYPE om_commit_process_time_ms summary
+om_commit_process_time_ms{quantile="0.5",} NaN
+om_commit_process_time_ms{quantile="0.9",} NaN
+om_commit_process_time_ms{quantile="0.99",} NaN
+om_commit_process_time_ms_count 0.0
+om_commit_process_time_ms_sum 0.0
+# HELP throttled_ops_total throttled_ops
+# TYPE throttled_ops_total counter
+throttled_ops_total 0.0
+# HELP learner_handler_qp_size learner_handler_qp_size
+# TYPE learner_handler_qp_size summary
+learner_handler_qp_size{key="1",quantile="0.5",} 0.0
+learner_handler_qp_size_count{key="1",} 47.0
+learner_handler_qp_size_sum{key="1",} 3.0
+learner_handler_qp_size{key="2",quantile="0.5",} 11.0
+learner_handler_qp_size_count{key="2",} 29.0
+learner_handler_qp_size_sum{key="2",} 300.0
+# HELP election_time election_time
+# TYPE election_time summary
+election_time{quantile="0.5",} 629.0
+election_time_count 3.0
+election_time_sum 6345.0
+# HELP connection_request_count_total connection_request_count
+# TYPE connection_request_count_total counter
+connection_request_count_total 7.0
+# HELP stale_replies_total stale_replies
+# TYPE stale_replies_total counter
+stale_replies_total 0.0
+# HELP connection_drop_count_total connection_drop_count
+# TYPE connection_drop_count_total counter
+connection_drop_count_total 0.0
+# HELP looking_count_total looking_count
+# TYPE looking_count_total counter
+looking_count_total 3.0
+# HELP insecure_admin_count_total insecure_admin_count
+# TYPE insecure_admin_count_total counter
+insecure_admin_count_total 0.0
+# HELP ephemerals_count ephemerals_count
+# TYPE ephemerals_count gauge
+ephemerals_count 25.0
+# HELP tls_handshake_exceeded_total tls_handshake_exceeded
+# TYPE tls_handshake_exceeded_total counter
+tls_handshake_exceeded_total 0.0
+# HELP readlatency readlatency
+# TYPE readlatency summary
+readlatency{quantile="0.5",} 0.0
+readlatency{quantile="0.9",} 1.0
+readlatency{quantile="0.99",} 5.0
+readlatency_count 38.0
+readlatency_sum 20.0
+# HELP leader_uptime leader_uptime
+# TYPE leader_uptime gauge
+leader_uptime 16770.0
+# HELP inflight_diff_count inflight_diff_count
+# TYPE inflight_diff_count summary
+inflight_diff_count{quantile="0.5",} 0.0
+inflight_diff_count_count 4.0
+inflight_diff_count_sum 2.0
+# HELP prep_process_time prep_process_time
+# TYPE prep_process_time summary
+prep_process_time{quantile="0.5",} 0.0
+prep_process_time_count 52.0
+prep_process_time_sum 7.0
+# HELP read_commit_proc_issued read_commit_proc_issued
+# TYPE read_commit_proc_issued summary
+read_commit_proc_issued{quantile="0.5",} 0.0
+read_commit_proc_issued_count 78.0
+read_commit_proc_issued_sum 38.0
+# HELP quota_count_limit_per_namespace quota_count_limit_per_namespace
+# TYPE quota_count_limit_per_namespace gauge
+# HELP commit_count_total commit_count
+# TYPE commit_count_total counter
+commit_count_total 12.0
+# HELP commit_process_time commit_process_time
+# TYPE commit_process_time summary
+commit_process_time{quantile="0.5",} 0.0
+commit_process_time_count 78.0
+commit_process_time_sum 14.0
+# HELP startup_txns_load_time startup_txns_load_time
+# TYPE startup_txns_load_time summary
+startup_txns_load_time{quantile="0.5",} 415.0
+startup_txns_load_time_count 1.0
+startup_txns_load_time_sum 415.0
+# HELP quorum_size quorum_size
+# TYPE quorum_size gauge
+quorum_size 3.0
+# HELP pending_syncs pending_syncs
+# TYPE pending_syncs gauge
+pending_syncs 0.0
+# HELP ensemble_auth_fail_total ensemble_auth_fail
+# TYPE ensemble_auth_fail_total counter
+ensemble_auth_fail_total 0.0
+# HELP learner_commit_received_count_total learner_commit_received_count
+# TYPE learner_commit_received_count_total counter
+learner_commit_received_count_total 1.0
+# HELP sync_processor_queue_size sync_processor_queue_size
+# TYPE sync_processor_queue_size summary
+sync_processor_queue_size{quantile="0.5",} 0.0
+sync_processor_queue_size_count 29.0
+sync_processor_queue_size_sum 91.0
+# HELP packets_received packets_received
+# TYPE packets_received gauge
+packets_received 55.0
+# HELP dead_watchers_cleared_total dead_watchers_cleared
+# TYPE dead_watchers_cleared_total counter
+dead_watchers_cleared_total 0.0
+# HELP pending_session_queue_size pending_session_queue_size
+# TYPE pending_session_queue_size summary
+pending_session_queue_size{quantile="0.5",} 1.0
+pending_session_queue_size_count 12.0
+pending_session_queue_size_sum 12.0
+# HELP uptime uptime
+# TYPE uptime gauge
+uptime 16850.0
+# HELP write_commit_proc_req_queued write_commit_proc_req_queued
+# TYPE write_commit_proc_req_queued summary
+write_commit_proc_req_queued{quantile="0.5",} 0.0
+write_commit_proc_req_queued_count 78.0
+write_commit_proc_req_queued_sum 24.0
+# HELP fsynctime fsynctime
+# TYPE fsynctime summary
+fsynctime{quantile="0.5",} 0.0
+fsynctime_count 14.0
+fsynctime_sum 0.0
+# HELP reads_after_write_in_session_queue reads_after_write_in_session_queue
+# TYPE reads_after_write_in_session_queue summary
+reads_after_write_in_session_queue{quantile="0.5",} 0.0
+reads_after_write_in_session_queue_count 12.0
+reads_after_write_in_session_queue_sum 0.0
+# HELP startup_snap_load_time startup_snap_load_time
+# TYPE startup_snap_load_time summary
+startup_snap_load_time{quantile="0.5",} 15.0
+startup_snap_load_time_count 1.0
+startup_snap_load_time_sum 15.0
+# HELP min_client_response_size min_client_response_size
+# TYPE min_client_response_size gauge
+min_client_response_size 16.0
+# HELP synced_observers synced_observers
+# TYPE synced_observers gauge
+synced_observers 0.0
+# HELP max_proposal_size max_proposal_size
+# TYPE max_proposal_size gauge
+max_proposal_size 2925.0
+# HELP unrecoverable_error_count_total unrecoverable_error_count
+# TYPE unrecoverable_error_count_total counter
+unrecoverable_error_count_total 0.0
+# HELP write_final_proc_time_ms write_final_proc_time_ms
+# TYPE write_final_proc_time_ms summary
+write_final_proc_time_ms{quantile="0.5",} 0.0
+write_final_proc_time_ms{quantile="0.9",} 1.0
+write_final_proc_time_ms{quantile="0.99",} 4.0
+write_final_proc_time_ms_count 27.0
+write_final_proc_time_ms_sum 13.0
+# HELP znode_count znode_count
+# TYPE znode_count gauge
+znode_count 507.0
+# HELP global_sessions global_sessions
+# TYPE global_sessions gauge
+global_sessions 24.0
+# HELP outstanding_tls_handshake outstanding_tls_handshake
+# TYPE outstanding_tls_handshake gauge
+outstanding_tls_handshake 0.0
+# HELP jvm_info VM version info
+# TYPE jvm_info gauge
+jvm_info{runtime="OpenJDK Runtime Environment",vendor="Oracle Corporation",version="21.0.2+13-58",} 1.0
+# HELP read_commitproc_time_ms read_commitproc_time_ms
+# TYPE read_commitproc_time_ms summary
+read_commitproc_time_ms{quantile="0.5",} 0.0
+read_commitproc_time_ms{quantile="0.9",} 0.0
+read_commitproc_time_ms{quantile="0.99",} 1.0
+read_commitproc_time_ms_count 38.0
+read_commitproc_time_ms_sum 3.0
+# HELP session_queues_drained session_queues_drained
+# TYPE session_queues_drained summary
+session_queues_drained{quantile="0.5",} 0.0
+session_queues_drained_count 27.0
+session_queues_drained_sum 12.0
+# HELP min_latency min_latency
+# TYPE min_latency gauge
+min_latency 0.0
+# HELP prep_processor_queue_time_ms prep_processor_queue_time_ms
+# TYPE prep_processor_queue_time_ms summary
+prep_processor_queue_time_ms{quantile="0.5",} 0.0
+prep_processor_queue_time_ms{quantile="0.9",} 0.0
+prep_processor_queue_time_ms{quantile="0.99",} 1.0
+prep_processor_queue_time_ms_count 52.0
+prep_processor_queue_time_ms_sum 1.0
+# HELP sync_processor_queue_time_ms sync_processor_queue_time_ms
+# TYPE sync_processor_queue_time_ms summary
+sync_processor_queue_time_ms{quantile="0.5",} 2.0
+sync_processor_queue_time_ms{quantile="0.9",} 3.0
+sync_processor_queue_time_ms{quantile="0.99",} 3.0
+sync_processor_queue_time_ms_count 27.0
+sync_processor_queue_time_ms_sum 33.0
+# HELP time_waiting_empty_pool_in_commit_processor_read_ms time_waiting_empty_pool_in_commit_processor_read_ms
+# TYPE time_waiting_empty_pool_in_commit_processor_read_ms summary
+time_waiting_empty_pool_in_commit_processor_read_ms{quantile="0.5",} 0.0
+time_waiting_empty_pool_in_commit_processor_read_ms_count 27.0
+time_waiting_empty_pool_in_commit_processor_read_ms_sum 0.0
+# HELP quorum_ack_latency quorum_ack_latency
+# TYPE quorum_ack_latency summary
+quorum_ack_latency{quantile="0.5",} 1.0
+quorum_ack_latency{quantile="0.9",} 4.0
+quorum_ack_latency{quantile="0.99",} 4.0
+quorum_ack_latency_count 12.0
+quorum_ack_latency_sum 19.0
+# HELP prep_processor_request_queued_total prep_processor_request_queued
+# TYPE prep_processor_request_queued_total counter
+prep_processor_request_queued_total 52.0
+# HELP connection_token_deficit connection_token_deficit
+# TYPE connection_token_deficit summary
+connection_token_deficit{quantile="0.5",} 0.0
+connection_token_deficit_count 7.0
+connection_token_deficit_sum 0.0
+# HELP add_dead_watcher_stall_time_total add_dead_watcher_stall_time
+# TYPE add_dead_watcher_stall_time_total counter
+add_dead_watcher_stall_time_total 0.0
+# HELP max_file_descriptor_count max_file_descriptor_count
+# TYPE max_file_descriptor_count gauge
+max_file_descriptor_count 1048576.0
+# HELP read_final_proc_time_ms read_final_proc_time_ms
+# TYPE read_final_proc_time_ms summary
+read_final_proc_time_ms{quantile="0.5",} 0.0
+read_final_proc_time_ms{quantile="0.9",} 1.0
+read_final_proc_time_ms{quantile="0.99",} 6.0
+read_final_proc_time_ms_count 38.0
+read_final_proc_time_ms_sum 17.0
+# HELP local_sessions local_sessions
+# TYPE local_sessions gauge
+local_sessions 0.0
+# HELP approximate_data_size approximate_data_size
+# TYPE approximate_data_size gauge
+approximate_data_size 130680.0
+# HELP requests_in_session_queue requests_in_session_queue
+# TYPE requests_in_session_queue summary
+requests_in_session_queue{quantile="0.5",} 1.0
+requests_in_session_queue_count 24.0
+requests_in_session_queue_sum 24.0
+# HELP ensemble_auth_skip_total ensemble_auth_skip
+# TYPE ensemble_auth_skip_total counter
+ensemble_auth_skip_total 0.0
+# HELP sync_processor_queue_and_flush_time_ms sync_processor_queue_and_flush_time_ms
+# TYPE sync_processor_queue_and_flush_time_ms summary
+sync_processor_queue_and_flush_time_ms{quantile="0.5",} 4.0
+sync_processor_queue_and_flush_time_ms{quantile="0.9",} 4.0
+sync_processor_queue_and_flush_time_ms{quantile="0.99",} 4.0
+sync_processor_queue_and_flush_time_ms_count 27.0
+sync_processor_queue_and_flush_time_ms_sum 63.0
+# HELP response_bytes_total response_bytes
+# TYPE response_bytes_total counter
+response_bytes_total 63545.0
+# HELP response_packet_get_children_cache_hits_total response_packet_get_children_cache_hits
+# TYPE response_packet_get_children_cache_hits_total counter
+response_packet_get_children_cache_hits_total 0.0
+# HELP response_packet_get_children_cache_misses_total response_packet_get_children_cache_misses
+# TYPE response_packet_get_children_cache_misses_total counter
+response_packet_get_children_cache_misses_total 0.0
+# HELP add_dead_watcher_stall_time_created add_dead_watcher_stall_time
+# TYPE add_dead_watcher_stall_time_created gauge
+add_dead_watcher_stall_time_created 1.776059248246E9
+# HELP bytes_received_count_created bytes_received_count
+# TYPE bytes_received_count_created gauge
+bytes_received_count_created 1.776059248246E9
+# HELP close_session_prep_time_created close_session_prep_time
+# TYPE close_session_prep_time_created gauge
+close_session_prep_time_created 1.776059248246E9
+# HELP cnxn_closed_without_dcs_server_running_created cnxn_closed_without_dcs_server_running
+# TYPE cnxn_closed_without_dcs_server_running_created gauge
+cnxn_closed_without_dcs_server_running_created 1.776059248248E9
+# HELP commit_commit_proc_req_queued_created commit_commit_proc_req_queued
+# TYPE commit_commit_proc_req_queued_created gauge
+commit_commit_proc_req_queued_created 1.776059248247E9
+# HELP commit_count_created commit_count
+# TYPE commit_count_created gauge
+commit_count_created 1.776059248245E9
+# HELP commit_process_time_created commit_process_time
+# TYPE commit_process_time_created gauge
+commit_process_time_created 1.776059248247E9
+# HELP commit_propagation_latency_created commit_propagation_latency
+# TYPE commit_propagation_latency_created gauge
+commit_propagation_latency_created 1.776059248247E9
+# HELP concurrent_request_processing_in_commit_processor_created concurrent_request_processing_in_commit_processor
+# TYPE concurrent_request_processing_in_commit_processor_created gauge
+concurrent_request_processing_in_commit_processor_created 1.776059248247E9
+# HELP connection_drop_count_created connection_drop_count
+# TYPE connection_drop_count_created gauge
+connection_drop_count_created 1.776059248247E9
+# HELP connection_rejected_created connection_rejected
+# TYPE connection_rejected_created gauge
+connection_rejected_created 1.776059248245E9
+# HELP connection_request_count_created connection_request_count
+# TYPE connection_request_count_created gauge
+connection_request_count_created 1.776059248245E9
+# HELP connection_revalidate_count_created connection_revalidate_count
+# TYPE connection_revalidate_count_created gauge
+connection_revalidate_count_created 1.776059248247E9
+# HELP connection_token_deficit_created connection_token_deficit
+# TYPE connection_token_deficit_created gauge
+connection_token_deficit_created 1.776059248245E9
+# HELP dbinittime_created dbinittime
+# TYPE dbinittime_created gauge
+dbinittime_created 1.776059248244E9
+# HELP dead_watchers_cleaner_latency_created dead_watchers_cleaner_latency
+# TYPE dead_watchers_cleaner_latency_created gauge
+dead_watchers_cleaner_latency_created 1.776059248246E9
+# HELP dead_watchers_cleared_created dead_watchers_cleared
+# TYPE dead_watchers_cleared_created gauge
+dead_watchers_cleared_created 1.776059248246E9
+# HELP dead_watchers_queued_created dead_watchers_queued
+# TYPE dead_watchers_queued_created gauge
+dead_watchers_queued_created 1.776059248246E9
+# HELP diff_count_created diff_count
+# TYPE diff_count_created gauge
+diff_count_created 1.776059248245E9
+# HELP digest_mismatches_count_created digest_mismatches_count
+# TYPE digest_mismatches_count_created gauge
+digest_mismatches_count_created 1.776059248248E9
+# HELP election_time_created election_time
+# TYPE election_time_created gauge
+election_time_created 1.776059248244E9
+# HELP ensemble_auth_fail_created ensemble_auth_fail
+# TYPE ensemble_auth_fail_created gauge
+ensemble_auth_fail_created 1.776059248246E9
+# HELP ensemble_auth_skip_created ensemble_auth_skip
+# TYPE ensemble_auth_skip_created gauge
+ensemble_auth_skip_created 1.776059248246E9
+# HELP ensemble_auth_success_created ensemble_auth_success
+# TYPE ensemble_auth_success_created gauge
+ensemble_auth_success_created 1.776059248246E9
+# HELP follower_sync_time_created follower_sync_time
+# TYPE follower_sync_time_created gauge
+follower_sync_time_created 1.776059248244E9
+# HELP fsynctime_created fsynctime
+# TYPE fsynctime_created gauge
+fsynctime_created 1.776059248243E9
+# HELP inflight_diff_count_created inflight_diff_count
+# TYPE inflight_diff_count_created gauge
+inflight_diff_count_created 1.776059248245E9
+# HELP inflight_snap_count_created inflight_snap_count
+# TYPE inflight_snap_count_created gauge
+inflight_snap_count_created 1.776059248245E9
+# HELP insecure_admin_count_created insecure_admin_count
+# TYPE insecure_admin_count_created gauge
+insecure_admin_count_created 1.776059248248E9
+# HELP jvm_memory_pool_allocated_bytes_created Total bytes allocated in a given JVM memory pool. Only updated after GC, not continuously.
+# TYPE jvm_memory_pool_allocated_bytes_created gauge
+jvm_memory_pool_allocated_bytes_created{pool="CodeHeap 'profiled nmethods'",} 1.776059248437E9
+jvm_memory_pool_allocated_bytes_created{pool="ZHeap",} 1.776059248437E9
+jvm_memory_pool_allocated_bytes_created{pool="CodeHeap 'non-profiled nmethods'",} 1.776059248437E9
+jvm_memory_pool_allocated_bytes_created{pool="Compressed Class Space",} 1.776059248437E9
+jvm_memory_pool_allocated_bytes_created{pool="Metaspace",} 1.77605924851E9
+jvm_memory_pool_allocated_bytes_created{pool="CodeHeap 'non-nmethods'",} 1.77605924851E9
+# HELP jvm_pause_time_ms_created jvm_pause_time_ms
+# TYPE jvm_pause_time_ms_created gauge
+jvm_pause_time_ms_created 1.776059248248E9
+# HELP large_requests_rejected_created large_requests_rejected
+# TYPE large_requests_rejected_created gauge
+large_requests_rejected_created 1.776059248248E9
+# HELP leader_unavailable_time_created leader_unavailable_time
+# TYPE leader_unavailable_time_created gauge
+leader_unavailable_time_created 1.776059248247E9
+# HELP learner_commit_received_count_created learner_commit_received_count
+# TYPE learner_commit_received_count_created gauge
+learner_commit_received_count_created 1.776059248247E9
+# HELP learner_handler_qp_size_created learner_handler_qp_size
+# TYPE learner_handler_qp_size_created gauge
+learner_handler_qp_size_created{key="1",} 1.776059281607E9
+learner_handler_qp_size_created{key="2",} 1.77605929671E9
+# HELP learner_handler_qp_time_ms_created learner_handler_qp_time_ms
+# TYPE learner_handler_qp_time_ms_created gauge
+learner_handler_qp_time_ms_created{key="1",} 1.776059281607E9
+learner_handler_qp_time_ms_created{key="2",} 1.77605929671E9
+# HELP learner_proposal_received_count_created learner_proposal_received_count
+# TYPE learner_proposal_received_count_created gauge
+learner_proposal_received_count_created 1.776059248247E9
+# HELP learner_request_processor_queue_size_created learner_request_processor_queue_size
+# TYPE learner_request_processor_queue_size_created gauge
+learner_request_processor_queue_size_created 1.776059248248E9
+# HELP local_write_committed_time_ms_created local_write_committed_time_ms
+# TYPE local_write_committed_time_ms_created gauge
+local_write_committed_time_ms_created 1.776059248247E9
+# HELP log4j2_appender_created Log4j2 log statements at various log levels
+# TYPE log4j2_appender_created gauge
+log4j2_appender_created{level="debug",} 1.77605924673E9
+log4j2_appender_created{level="warn",} 1.77605924673E9
+log4j2_appender_created{level="trace",} 1.77605924673E9
+log4j2_appender_created{level="error",} 1.77605924673E9
+log4j2_appender_created{level="fatal",} 1.77605924673E9
+log4j2_appender_created{level="info",} 1.77605924673E9
+# HELP looking_count_created looking_count
+# TYPE looking_count_created gauge
+looking_count_created 1.776059248245E9
+# HELP netty_queued_buffer_capacity_created netty_queued_buffer_capacity
+# TYPE netty_queued_buffer_capacity_created gauge
+netty_queued_buffer_capacity_created 1.776059248248E9
+# HELP node_changed_watch_count_created node_changed_watch_count
+# TYPE node_changed_watch_count_created gauge
+node_changed_watch_count_created 1.776059248246E9
+# HELP node_children_watch_count_created node_children_watch_count
+# TYPE node_children_watch_count_created gauge
+node_children_watch_count_created 1.776059248246E9
+# HELP node_created_watch_count_created node_created_watch_count
+# TYPE node_created_watch_count_created gauge
+node_created_watch_count_created 1.776059248246E9
+# HELP node_deleted_watch_count_created node_deleted_watch_count
+# TYPE node_deleted_watch_count_created gauge
+node_deleted_watch_count_created 1.776059248246E9
+# HELP observer_sync_time_created observer_sync_time
+# TYPE observer_sync_time_created gauge
+observer_sync_time_created 1.776059248244E9
+# HELP om_commit_process_time_ms_created om_commit_process_time_ms
+# TYPE om_commit_process_time_ms_created gauge
+om_commit_process_time_ms_created 1.776059248247E9
+# HELP om_proposal_process_time_ms_created om_proposal_process_time_ms
+# TYPE om_proposal_process_time_ms_created gauge
+om_proposal_process_time_ms_created 1.776059248247E9
+# HELP outstanding_changes_queued_created outstanding_changes_queued
+# TYPE outstanding_changes_queued_created gauge
+outstanding_changes_queued_created 1.776059248246E9
+# HELP outstanding_changes_removed_created outstanding_changes_removed
+# TYPE outstanding_changes_removed_created gauge
+outstanding_changes_removed_created 1.776059248246E9
+# HELP pending_session_queue_size_created pending_session_queue_size
+# TYPE pending_session_queue_size_created gauge
+pending_session_queue_size_created 1.776059248247E9
+# HELP prep_process_time_created prep_process_time
+# TYPE prep_process_time_created gauge
+prep_process_time_created 1.776059248246E9
+# HELP prep_processor_queue_size_created prep_processor_queue_size
+# TYPE prep_processor_queue_size_created gauge
+prep_processor_queue_size_created 1.776059248246E9
+# HELP prep_processor_queue_time_ms_created prep_processor_queue_time_ms
+# TYPE prep_processor_queue_time_ms_created gauge
+prep_processor_queue_time_ms_created 1.776059248246E9
+# HELP prep_processor_request_queued_created prep_processor_request_queued
+# TYPE prep_processor_request_queued_created gauge
+prep_processor_request_queued_created 1.776059248246E9
+# HELP propagation_latency_created propagation_latency
+# TYPE propagation_latency_created gauge
+propagation_latency_created 1.776059248244E9
+# HELP proposal_ack_creation_latency_created proposal_ack_creation_latency
+# TYPE proposal_ack_creation_latency_created gauge
+proposal_ack_creation_latency_created 1.776059248247E9
+# HELP proposal_count_created proposal_count
+# TYPE proposal_count_created gauge
+proposal_count_created 1.776059248248E9
+# HELP proposal_latency_created proposal_latency
+# TYPE proposal_latency_created gauge
+proposal_latency_created 1.776059248247E9
+# HELP proposal_process_time_created proposal_process_time
+# TYPE proposal_process_time_created gauge
+proposal_process_time_created 1.776059248246E9
+# HELP quit_leading_due_to_disloyal_voter_created quit_leading_due_to_disloyal_voter
+# TYPE quit_leading_due_to_disloyal_voter_created gauge
+quit_leading_due_to_disloyal_voter_created 1.776059248248E9
+# HELP quorum_ack_latency_created quorum_ack_latency
+# TYPE quorum_ack_latency_created gauge
+quorum_ack_latency_created 1.776059248248E9
+# HELP read_commit_proc_issued_created read_commit_proc_issued
+# TYPE read_commit_proc_issued_created gauge
+read_commit_proc_issued_created 1.776059248247E9
+# HELP read_commit_proc_req_queued_created read_commit_proc_req_queued
+# TYPE read_commit_proc_req_queued_created gauge
+read_commit_proc_req_queued_created 1.776059248247E9
+# HELP read_commitproc_time_ms_created read_commitproc_time_ms
+# TYPE read_commitproc_time_ms_created gauge
+read_commitproc_time_ms_created 1.776059248247E9
+# HELP read_final_proc_time_ms_created read_final_proc_time_ms
+# TYPE read_final_proc_time_ms_created gauge
+read_final_proc_time_ms_created 1.776059248247E9
+# HELP read_per_namespace_created read_per_namespace
+# TYPE read_per_namespace_created gauge
+read_per_namespace_created{key="managed-ledgers",} 1.776059297528E9
+read_per_namespace_created{key="schemas",} 1.776059298233E9
+read_per_namespace_created{key="ledgers",} 1.776059298238E9
+read_per_namespace_created{key="admin",} 1.776059297519E9
+read_per_namespace_created{key="namespace",} 1.776059288407E9
+read_per_namespace_created{key="loadbalance",} 1.776059282193E9
+# HELP readlatency_created readlatency
+# TYPE readlatency_created gauge
+readlatency_created 1.776059248244E9
+# HELP reads_after_write_in_session_queue_created reads_after_write_in_session_queue
+# TYPE reads_after_write_in_session_queue_created gauge
+reads_after_write_in_session_queue_created 1.776059248247E9
+# HELP reads_issued_from_session_queue_created reads_issued_from_session_queue
+# TYPE reads_issued_from_session_queue_created gauge
+reads_issued_from_session_queue_created 1.776059248247E9
+# HELP request_commit_queued_created request_commit_queued
+# TYPE request_commit_queued_created gauge
+request_commit_queued_created 1.776059248247E9
+# HELP request_throttle_queue_time_ms_created request_throttle_queue_time_ms
+# TYPE request_throttle_queue_time_ms_created gauge
+request_throttle_queue_time_ms_created 1.776059248248E9
+# HELP request_throttle_wait_count_created request_throttle_wait_count
+# TYPE request_throttle_wait_count_created gauge
+request_throttle_wait_count_created 1.776059248248E9
+# HELP requests_in_session_queue_created requests_in_session_queue
+# TYPE requests_in_session_queue_created gauge
+requests_in_session_queue_created 1.776059248247E9
+# HELP requests_not_forwarded_to_commit_processor_created requests_not_forwarded_to_commit_processor
+# TYPE requests_not_forwarded_to_commit_processor_created gauge
+requests_not_forwarded_to_commit_processor_created 1.776059248248E9
+# HELP response_bytes_created response_bytes
+# TYPE response_bytes_created gauge
+response_bytes_created 1.776059248248E9
+# HELP response_packet_cache_hits_created response_packet_cache_hits
+# TYPE response_packet_cache_hits_created gauge
+response_packet_cache_hits_created 1.776059248246E9
+# HELP response_packet_cache_misses_created response_packet_cache_misses
+# TYPE response_packet_cache_misses_created gauge
+response_packet_cache_misses_created 1.776059248246E9
+# HELP response_packet_get_children_cache_hits_created response_packet_get_children_cache_hits
+# TYPE response_packet_get_children_cache_hits_created gauge
+response_packet_get_children_cache_hits_created 1.776059248246E9
+# HELP response_packet_get_children_cache_misses_created response_packet_get_children_cache_misses
+# TYPE response_packet_get_children_cache_misses_created gauge
+response_packet_get_children_cache_misses_created 1.776059248246E9
+# HELP revalidate_count_created revalidate_count
+# TYPE revalidate_count_created gauge
+revalidate_count_created 1.776059248247E9
+# HELP server_write_committed_time_ms_created server_write_committed_time_ms
+# TYPE server_write_committed_time_ms_created gauge
+server_write_committed_time_ms_created 1.776059248247E9
+# HELP session_queues_drained_created session_queues_drained
+# TYPE session_queues_drained_created gauge
+session_queues_drained_created 1.776059248247E9
+# HELP sessionless_connections_expired_created sessionless_connections_expired
+# TYPE sessionless_connections_expired_created gauge
+sessionless_connections_expired_created 1.776059248247E9
+# HELP skip_learner_request_to_next_processor_count_created skip_learner_request_to_next_processor_count
+# TYPE skip_learner_request_to_next_processor_count_created gauge
+skip_learner_request_to_next_processor_count_created 1.776059248248E9
+# HELP snap_count_created snap_count
+# TYPE snap_count_created gauge
+snap_count_created 1.776059248245E9
+# HELP snapshottime_created snapshottime
+# TYPE snapshottime_created gauge
+snapshottime_created 1.776059248244E9
+# HELP socket_closing_time_created socket_closing_time
+# TYPE socket_closing_time_created gauge
+socket_closing_time_created 1.776059248248E9
+# HELP stale_replies_created stale_replies
+# TYPE stale_replies_created gauge
+stale_replies_created 1.776059248248E9
+# HELP stale_requests_created stale_requests
+# TYPE stale_requests_created gauge
+stale_requests_created 1.776059248248E9
+# HELP stale_requests_dropped_created stale_requests_dropped
+# TYPE stale_requests_dropped_created gauge
+stale_requests_dropped_created 1.776059248248E9
+# HELP stale_sessions_expired_created stale_sessions_expired
+# TYPE stale_sessions_expired_created gauge
+stale_sessions_expired_created 1.776059248247E9
+# HELP startup_snap_load_time_created startup_snap_load_time
+# TYPE startup_snap_load_time_created gauge
+startup_snap_load_time_created 1.776059248248E9
+# HELP startup_txns_load_time_created startup_txns_load_time
+# TYPE startup_txns_load_time_created gauge
+startup_txns_load_time_created 1.776059248248E9
+# HELP startup_txns_loaded_created startup_txns_loaded
+# TYPE startup_txns_loaded_created gauge
+startup_txns_loaded_created 1.776059248248E9
+# HELP sync_process_time_created sync_process_time
+# TYPE sync_process_time_created gauge
+sync_process_time_created 1.776059248248E9
+# HELP sync_processor_batch_size_created sync_processor_batch_size
+# TYPE sync_processor_batch_size_created gauge
+sync_processor_batch_size_created 1.776059248248E9
+# HELP sync_processor_queue_and_flush_time_ms_created sync_processor_queue_and_flush_time_ms
+# TYPE sync_processor_queue_and_flush_time_ms_created gauge
+sync_processor_queue_and_flush_time_ms_created 1.776059248248E9
+# HELP sync_processor_queue_flush_time_ms_created sync_processor_queue_flush_time_ms
+# TYPE sync_processor_queue_flush_time_ms_created gauge
+sync_processor_queue_flush_time_ms_created 1.776059248248E9
+# HELP sync_processor_queue_size_created sync_processor_queue_size
+# TYPE sync_processor_queue_size_created gauge
+sync_processor_queue_size_created 1.776059248248E9
+# HELP sync_processor_queue_time_ms_created sync_processor_queue_time_ms
+# TYPE sync_processor_queue_time_ms_created gauge
+sync_processor_queue_time_ms_created 1.776059248248E9
+# HELP sync_processor_request_queued_created sync_processor_request_queued
+# TYPE sync_processor_request_queued_created gauge
+sync_processor_request_queued_created 1.776059248248E9
+# HELP throttled_ops_created throttled_ops
+# TYPE throttled_ops_created gauge
+throttled_ops_created 1.776059248247E9
+# HELP time_waiting_empty_pool_in_commit_processor_read_ms_created time_waiting_empty_pool_in_commit_processor_read_ms
+# TYPE time_waiting_empty_pool_in_commit_processor_read_ms_created gauge
+time_waiting_empty_pool_in_commit_processor_read_ms_created 1.776059248247E9
+# HELP tls_handshake_exceeded_created tls_handshake_exceeded
+# TYPE tls_handshake_exceeded_created gauge
+tls_handshake_exceeded_created 1.776059248248E9
+# HELP unavailable_time_created unavailable_time
+# TYPE unavailable_time_created gauge
+unavailable_time_created 1.776059248247E9
+# HELP unrecoverable_error_count_created unrecoverable_error_count
+# TYPE unrecoverable_error_count_created gauge
+unrecoverable_error_count_created 1.776059248246E9
+# HELP unsuccessful_handshake_created unsuccessful_handshake
+# TYPE unsuccessful_handshake_created gauge
+unsuccessful_handshake_created 1.776059248248E9
+# HELP updatelatency_created updatelatency
+# TYPE updatelatency_created gauge
+updatelatency_created 1.776059248244E9
+# HELP watch_bytes_created watch_bytes
+# TYPE watch_bytes_created gauge
+watch_bytes_created 1.776059248248E9
+# HELP write_batch_time_in_commit_processor_created write_batch_time_in_commit_processor
+# TYPE write_batch_time_in_commit_processor_created gauge
+write_batch_time_in_commit_processor_created 1.776059248247E9
+# HELP write_commit_proc_issued_created write_commit_proc_issued
+# TYPE write_commit_proc_issued_created gauge
+write_commit_proc_issued_created 1.776059248247E9
+# HELP write_commit_proc_req_queued_created write_commit_proc_req_queued
+# TYPE write_commit_proc_req_queued_created gauge
+write_commit_proc_req_queued_created 1.776059248247E9
+# HELP write_commitproc_time_ms_created write_commitproc_time_ms
+# TYPE write_commitproc_time_ms_created gauge
+write_commitproc_time_ms_created 1.776059248247E9
+# HELP write_final_proc_time_ms_created write_final_proc_time_ms
+# TYPE write_final_proc_time_ms_created gauge
+write_final_proc_time_ms_created 1.776059248247E9
+# HELP write_per_namespace_created write_per_namespace
+# TYPE write_per_namespace_created gauge
+write_per_namespace_created{key="managed-ledgers",} 1.776059248843E9
+write_per_namespace_created{key="dcs",} 1.776059248419E9
+write_per_namespace_created{key="koc_latest_producer_id_block",} 1.776059248842E9
+write_per_namespace_created{key="schemas",} 1.776059248922E9
+write_per_namespace_created{key="ledgers",} 1.776059248631E9
+write_per_namespace_created{key="counters",} 1.776059248835E9
+write_per_namespace_created{key="namespace",} 1.776059248837E9
+write_per_namespace_created{key="loadbalance",} 1.776059248837E9

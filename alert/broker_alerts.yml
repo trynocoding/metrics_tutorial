@@ -1,0 +1,47 @@
+groups:
+  - name: cloudmq-broker-alerts
+    rules:
+      - alert: BrokerInstanceDown
+        expr: up{job="cmq-broker"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Broker 节点宕机: {{ $labels.instance }}"
+          description: "Broker 节点 {{ $labels.instance }} 在过去 1 分钟内无法通过 Prometheus 采集指标，可能已宕机。"
+
+      - alert: BrokerHeapMemoryUsageHigh
+        expr: jvm_memory_bytes_used{area="heap", component="broker"} / jvm_memory_bytes_max{area="heap", component="broker"} > 0.85
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Broker 节点 {{ $labels.instance }} 堆内存使用率高"
+          description: "Broker 节点 {{ $labels.instance }} 的堆内存使用率超过 85%，存在 OOM 风险。"
+
+      - alert: BrokerMessageBacklogTooHigh
+        expr: cloudmq_broker_msg_backlog > 500000
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Broker 集群消息积压严重: {{ $value }} 条"
+          description: "Broker 全局消息积压超过 50 万条，可能意味着消费者处理慢或已经停止消费。"
+
+      - alert: BrokerTopicLoadFailed
+        expr: rate(cloudmq_topic_load_failed[5m]) > 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Broker Topic 加载失败"
+          description: "节点 {{ $labels.instance }} 出现 Topic 加载失败，可能影响客户端连接与收发。"
+
+      - alert: BrokerStorageWriteErrors
+        expr: rate(cloudmq_ml_AddEntryErrors[5m]) > 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Broker 存储层写入 Ledger 失败"
+          description: "节点 {{ $labels.instance }} 向 Bookie 写入数据发生错误，可能导致丢失数据或生产者严重受阻。"

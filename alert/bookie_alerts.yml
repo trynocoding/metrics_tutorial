@@ -1,0 +1,47 @@
+groups:
+  - name: cloudmq-bookie-alerts
+    rules:
+      - alert: BookieInstanceDown
+        expr: up{job="cmq-bookie"} == 0 or bookie_SERVER_STATUS != 1
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Bookie 节点宕机或服务状态异常: {{ $labels.instance }}"
+          description: "Bookie 节点 {{ $labels.instance }} 服务未就绪或进程宕机，将直接导致存储容量和副本可用率下降。"
+
+      - alert: BookieHeapMemoryUsageHigh
+        expr: jvm_memory_bytes_used{area="heap", component="bookie"} / jvm_memory_bytes_max{area="heap", component="bookie"} > 0.85
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Bookie 节点 {{ $labels.instance }} 堆内存使用率高"
+          description: "Bookie 节点 {{ $labels.instance }} 的堆内存使用率超过 85%，存在 OOM 风险。"
+
+      - alert: BookieLedgerDiskUsageHigh
+        expr: bookie_ledger_dir__cloudmq_data_bookkeeper_ledgers_usage > 85
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Bookie 账本数据盘容量不足: {{ $labels.instance }}"
+          description: "节点 {{ $labels.instance }} 的账本(Ledger)磁盘空间使用率超过 85%，磁盘若写满将转为只读模式。"
+
+      - alert: BookieIndexDiskUsageHigh
+        expr: bookie_index_dir__cloudmq_data_bookkeeper_ledgers_usage > 85
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Bookie 索引盘容量不足: {{ $labels.instance }}"
+          description: "节点 {{ $labels.instance }} 的索引(Index)磁盘空间使用率超过 85%。"
+
+      - alert: BookieWriteRequestsRejected
+        expr: rate(bookkeeper_server_ADD_ENTRY_REJECTED[5m]) > 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Bookie 写入请求被拒绝: {{ $labels.instance }}"
+          description: "节点 {{ $labels.instance }} 正在拒绝写入请求，可能是线程池队列已打满，写压力过载。"

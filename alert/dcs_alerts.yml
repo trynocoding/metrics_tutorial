@@ -1,0 +1,47 @@
+groups:
+  - name: cloudmq-dcs-alerts
+    rules:
+      - alert: DcsInstanceDown
+        expr: up{job="cmq-dcs"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "DCS 节点宕机: {{ $labels.instance }}"
+          description: "DCS 节点 {{ $labels.instance }} 宕机。如果过半节点宕机可能导致整个 CloudMQ 集群由于无法访问元数据而瘫痪。"
+
+      - alert: DcsHeapMemoryUsageHigh
+        expr: jvm_memory_bytes_used{area="heap", component="dcs"} / jvm_memory_bytes_max{area="heap", component="dcs"} > 0.85
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "DCS 节点 {{ $labels.instance }} 堆内存使用率高"
+          description: "DCS 节点 {{ $labels.instance }} 堆内存使用率超过 85%。"
+
+      - alert: DcsFdExhaustion
+        expr: process_open_fds{component="dcs"} / process_max_fds{component="dcs"} > 0.85
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "DCS 节点 {{ $labels.instance }} 文件描述符快耗尽"
+          description: "节点 {{ $labels.instance }} 已使用的文件描述符比例超过了 85%，可能导致无法建立新的请求连接。"
+
+      - alert: DcsOutstandingRequestsHigh
+        expr: outstanding_requests > 1000
+        for: 3m
+        labels:
+          severity: warning
+        annotations:
+          summary: "DCS 节点排队请求过多: {{ $labels.instance }}"
+          description: "节点 {{ $labels.instance }} 当前挂起(尚未处理完成)的请求数量超过 1000，可能是磁盘 IO 过慢导致事务提交受到阻塞。"
+
+      - alert: DcsWriteThrottle
+        expr: rate(throttled_ops[5m]) > 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "DCS 触发写入限流: {{ $labels.instance }}"
+          description: "节点 {{ $labels.instance }} 操作被限流，DCS 正在承受短暂时段内的较大元数据修改压力。"
